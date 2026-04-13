@@ -1,0 +1,18 @@
+---
+description: Keep documentation complete and aligned when gaps are discovered.
+alwaysApply: true
+---
+
+# Documentation Maintenance Loop
+
+- When answering a question, prefer existing docs and cite file paths.
+- If required information is missing, propose or create the missing doc in the
+  correct Diataxis section.
+- When repeated uncertainty appears, recommend updating canonical reference docs.
+- Keep new docs aligned with templates and quality checklist.
+
+# High-Impact Answer Behavior
+
+- Include confidence level for strategic, security, or process-critical answers.
+- Explicitly call out assumptions and unknowns.
+- Prefer concise answers plus references over speculative detail.

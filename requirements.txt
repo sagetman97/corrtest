@@ -1,0 +1,15 @@
+# Polly scripts — install: pip install -r requirements.txt
+# Collateral inventory (scripts/extract_collateral_summary.py)
+pymupdf>=1.23.0
+openpyxl>=3.1.0
+python-docx>=1.1.0
+python-pptx>=1.0.0
+
+# Org chart OCR (scripts/extract_orgchart_ocr.py, ocr_image.py)
+numpy>=1.24.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+rapidocr-onnxruntime>=1.3.0
+
+# Optional: full-PDF EasyOCR pipeline (scripts/extract_orgchart_easyocr_pdf.py)
+easyocr>=1.7.0

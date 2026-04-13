@@ -1,0 +1,23 @@
+---
+description: Markdown conventions for docs quality and retrieval quality.
+globs: **/*.md
+alwaysApply: false
+---
+
+# Markdown Authoring Standards
+
+- Use exactly one H1 title per file.
+- Keep heading hierarchy consistent (`##`, then `###`; avoid skipping levels).
+- Prefer short sections with descriptive headings.
+- Use bulleted lists for scannable procedures and checklists.
+- Use fenced code blocks with language tags for commands/snippets.
+- Use descriptive link text instead of "click here".
+- Keep terminology consistent with `docs/glossary.md`.
+- For process/critical docs, include owner, last reviewed, source, and confidence.
+
+# Retrieval-Friendly Writing
+
+- Keep each section focused on one idea or one procedure.
+- Put definitions before edge cases.
+- Include explicit names (team, system, tool) rather than pronouns.
+- For policy/process docs, include effective date and owner where known.

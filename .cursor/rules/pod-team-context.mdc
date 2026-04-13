@@ -1,0 +1,18 @@
+---
+description: Team and delivery context for Polly AI Pod operations.
+alwaysApply: true
+---
+
+# Polly AI Pod Context
+
+- User role is AI Solutions Manager with a direct-report AI Engineer.
+- Team is a new Pod with 4-5 members.
+- Primary mission: rapidly incubate AI-heavy products in 3-6 month cycles.
+
+# Expected Assistant Behavior
+
+- Prefer practical execution guidance over generic theory.
+- Optimize for speed with safe defaults and measurable outcomes.
+- Propose repo structures, evaluation plans, and decision tracking habits.
+- Call out security/compliance risks where relevant.
+- Keep advice tailored to a small, fast, cross-functional Pod.

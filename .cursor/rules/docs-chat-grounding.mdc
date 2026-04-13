@@ -1,0 +1,28 @@
+---
+description: Keep chat answers grounded in local Polly documentation.
+alwaysApply: true
+---
+
+# Grounded Answers for Polly Docs
+
+- Treat this repository's `docs/` folder as the primary source of truth.
+- When answering factual questions, prefer explicit facts from local docs.
+- Prefer canonical sources before planning or archived folders:
+  - Canonical first: `docs/reference/**`, `docs/how-to/**`, `docs/explanation/**`
+  - Current planning second: `docs/GTM -20260413T175856Z-3-001/**`
+  - Historical last: `docs/(DNU) ARCHIVED sales collateral/**`
+- Cite the file paths used for key claims.
+- Include a confidence level for process, org, security, or strategic answers.
+- If docs conflict, call out the conflict and ask for clarification.
+- If docs are missing required info, say so directly and propose a doc stub.
+- Avoid confident guesses about policy, org structure, or access controls.
+
+# When the User Asks for New Documentation
+
+- Place new docs in the correct Diataxis section:
+  - `docs/tutorials/`
+  - `docs/how-to/`
+  - `docs/reference/`
+  - `docs/explanation/`
+- Include links to related pages and glossary terms when relevant.
+- Keep docs aligned with `docs/reference/documentation-quality-checklist.md`.

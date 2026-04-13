@@ -1,0 +1,17 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local scratch
+tmp/
+scratch/
+
+# Cursor MCP (if config is ever copied into this repo for debugging)
+.cursor/mcp.json
+**/mcp.local.json
