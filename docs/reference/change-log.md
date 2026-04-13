@@ -13,7 +13,8 @@ Track major structural and standards changes to this knowledge base.
 - PPTX extraction in `extract_collateral_summary.py`: zip/XML fallback when `python-pptx` fails.
 - Root `README.md` next-steps aligned with org chart location and tiering.
 - `chat-usage-guide.md` and `data-handling-and-classification.md`: Tier 2/3 distribution cautions.
-- Added `CONTRIBUTING.md` and GitHub Action `markdownlint` on `**/*.md` (excludes `.cursor/`).
+- Added `CONTRIBUTING.md` and GitHub Action `markdownlint` on `**/*.md` (excludes `.cursor/` and generated `collateral-extract-notes.md`).
+- Relaxed `.markdownlint.json` with `MD034`/`MD036`/`MD060` disabled to match existing authored tables and links.
 
 ### 2026-04-13
 
