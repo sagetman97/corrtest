@@ -6,6 +6,13 @@ Track major structural and standards changes to this knowledge base.
 
 ## Entries
 
+### 2026-04-13 (MCP agent guidance)
+
+- `AGENTS.md`: MCP section (canonical `docs/`, normalize-and-cite pattern, pointers to
+  strategy/capabilities/troubleshooting, no secrets in repo).
+- `.cursor/rules/mcp.mdc` (`alwaysApply`): same expectations for every chat.
+- `docs/how-to/configure-cursor-for-polly-docs.md`: lists `mcp.mdc` in core setup.
+
 ### 2026-04-13 (repo hygiene)
 
 - Portable repo roots in `scripts/*.py` (derive from `__file__`).

@@ -12,6 +12,21 @@ question-answering support.
 - If confidence is low, say what is unknown and propose where to document it.
 - Do not invent policy details, org details, or process details.
 
+## MCP integrations
+
+- **`docs/` remains canonical** for grounded answers. MCP supplies live context
+  from external systems (for example Jira, GitHub, Slack, Google Workspace); treat
+  MCP output as **input** until it is normalized into markdown under `docs/`.
+- For **which MCP to use**, **priority order**, and **safe handling**, follow
+  `docs/reference/mcp-strategy.md` and
+  `docs/reference/mcp-capabilities-and-usage.md`. For failures, see
+  `docs/how-to/troubleshoot-mcp-connectivity.md`.
+- **Pattern:** import via MCP when needed → **normalize** into `docs/` (source
+  system, retrieval date, confidence) → **cite** those files in answers.
+- **Never** commit secrets, tokens, or credentials from MCP or tool output. Do
+  not treat informal channels (for example Slack) as authoritative policy
+  without reflecting decisions in `docs/`.
+
 ## Documentation Standards
 
 - Write in clear, concrete language.

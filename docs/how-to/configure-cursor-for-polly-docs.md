@@ -12,6 +12,7 @@ signals uncertainty when docs are incomplete.
 - `.cursor/rules/markdown-authoring.mdc` for consistent markdown quality.
 - `.cursor/rules/docs-maintenance-loop.mdc` for gap-closing behavior.
 - `.cursor/rules/pod-team-context.mdc` for team-specific context.
+- `.cursor/rules/mcp.mdc` for MCP vs `docs/`, connector usage, and safety.
 - Diataxis folder structure under `docs/`.
 
 ## Cursor Features to Enable

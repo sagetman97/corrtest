@@ -1,0 +1,17 @@
+---
+description: MCP connectors vs canonical docs — when to use, safety, and normalization.
+alwaysApply: true
+---
+
+# MCP integrations (Cursor)
+
+- **Canonical truth for answers** is local `docs/`. MCP provides **live** data from
+  external systems; it does **not** replace reviewed markdown for policy or process.
+- **Guidance:** `docs/reference/mcp-strategy.md` (reliability, priority, hygiene) and
+  `docs/reference/mcp-capabilities-and-usage.md` (capabilities, when to use each
+  connector, decision table). **Troubleshooting:** `docs/how-to/troubleshoot-mcp-connectivity.md`.
+- **Workflow:** use MCP to fetch facts when needed → **normalize** into `docs/` with
+  source system, retrieval date, and confidence → **cite** those pages later.
+- **Safety:** never store or commit secrets, tokens, PATs, OAuth material, or
+  credentials from tool output in the repo. Slack and similar are **context**, not
+  default policy authority—confirm and record in `docs/` when decisions matter.
