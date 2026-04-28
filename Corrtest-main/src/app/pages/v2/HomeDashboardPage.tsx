@@ -148,7 +148,7 @@ export function HomeDashboardPage() {
         />
       </div>
 
-      <div className="grid gap-6 xl:grid-cols-2">
+      <div className="grid gap-6 2xl:grid-cols-2">
         <section className="min-w-0" aria-labelledby="recent-activity-heading">
           <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
             <h2 id="recent-activity-heading" className="text-base font-semibold text-[var(--colors-text-icon-dark)]">
