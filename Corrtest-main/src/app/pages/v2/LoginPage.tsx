@@ -4,6 +4,7 @@ import { PollyWordmark } from '../../components/PollyLogo';
 import { PButton, PCard, PInput } from '../../components/polly';
 import { useAuth } from '../../context/AuthContext';
 import { Icon } from '../../components/Icon';
+import loginBackground from '../../../../backgroundCSEL.png';
 
 type LoginErrors = {
   email?: string;
@@ -66,7 +67,7 @@ export function LoginPage() {
       <div
         className="absolute inset-0 bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url("/backgroundCSEL.png")',
+          backgroundImage: `url(${loginBackground})`,
           backgroundSize: 'min(1800px, 100vw) auto',
         }}
       />
