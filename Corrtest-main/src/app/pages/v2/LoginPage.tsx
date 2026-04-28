@@ -63,15 +63,16 @@ export function LoginPage() {
   }
 
   return (
-    <main className="relative min-h-screen overflow-hidden bg-[var(--colors-background-common-default-grey)]">
-      <div
-        className="absolute inset-0 bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url(${loginBackground})`,
-          backgroundSize: 'min(1800px, 100vw) auto',
-        }}
+    <main className="relative min-h-screen overflow-hidden bg-white">
+      <img
+        src={loginBackground}
+        alt=""
+        aria-hidden="true"
+        className="absolute inset-0 h-full w-full object-cover object-center"
+        loading="eager"
+        decoding="async"
       />
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.18)_0%,rgba(245,247,252,0.28)_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.12)_0%,rgba(255,255,255,0.18)_100%)]" />
 
       <div className="relative z-[1] mx-auto flex min-h-screen w-full max-w-[min(100%,92rem)] flex-col px-4 py-6 sm:px-6 sm:py-8">
         <header className="mb-6 flex items-center justify-end gap-5 text-xs text-[var(--colors-text-icon-medium)]">
