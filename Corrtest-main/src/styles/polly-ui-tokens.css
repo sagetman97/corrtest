@@ -1,0 +1,18 @@
+/**
+ * Polly design tokens sourced from the canonical library at:
+ * `ui-components-main/packages/ui-components/src/styles/*.css`
+ *
+ * We import the same cascade as `main.css` minus `reset.css` to avoid fighting
+ * Tailwind preflight in this React app.
+ */
+@import url('../../../ui-components-main/packages/ui-components/src/styles/colors.css');
+@import url('../../../ui-components-main/packages/ui-components/src/styles/tokens.css');
+@import url('../../../ui-components-main/packages/ui-components/src/styles/brand.css');
+@import url('../../../ui-components-main/packages/ui-components/src/styles/spacing.css');
+@import url('../../../ui-components-main/packages/ui-components/src/styles/borders.css');
+@import url('../../../ui-components-main/packages/ui-components/src/styles/typography.css');
+@import url('../../../ui-components-main/packages/ui-components/src/styles/font.css');
+@import url('../../../ui-components-main/packages/ui-components/src/styles/layers.css');
+@import url('../../../ui-components-main/packages/ui-components/src/styles/grid.css');
+@import url('../../../ui-components-main/packages/ui-components/src/styles/width.css');
+@import url('../../../ui-components-main/packages/ui-components/src/styles/animations.css');

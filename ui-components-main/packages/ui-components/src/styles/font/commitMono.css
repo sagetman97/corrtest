@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'CommitMono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('CommitMono-400-Regular.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'CommitMono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('CommitMono-700-Regular.otf') format('woff');
+}

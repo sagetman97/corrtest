@@ -1,0 +1,7901 @@
+/* Icons */
+
+position: relative;
+width: 1146px;
+height: 2814px;
+
+/* figma_files_documentation/white */
+background: #FFFFFF;
+border-radius: 32px;
+
+
+/* _Section-header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px 0px 8px;
+gap: 12px;
+
+position: absolute;
+width: 954px;
+height: 66px;
+left: 96px;
+top: 96px;
+
+/* figma_files_documentation/primary-1 */
+border-bottom: 4px solid #000000;
+
+
+/* L-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+margin: 0 auto;
+width: 182px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* component symbol */
+
+width: 45px;
+height: 45px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+width: 125px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+margin: 0 auto;
+width: 162px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 32px;
+height: 32px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sub-header */
+
+display: none;
+width: 162px;
+height: 48px;
+
+/* _documentation/subtitle-1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icons-Basic */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 32px;
+gap: 40px;
+
+position: absolute;
+width: 954px;
+height: 268px;
+left: 96px;
+top: 202px;
+
+/* figma_files_documentation/highlight-3 */
+background: #F5F5F5;
+border-radius: 20px;
+
+
+/* _Section-header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 12px;
+
+width: 890px;
+height: 66px;
+
+/* figma_files_documentation/primary-1 */
+border-bottom: 4px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* L-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 225px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 45px;
+height: 45px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+display: none;
+width: 141px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 166px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 32px;
+height: 32px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sub-header */
+
+width: 166px;
+height: 48px;
+
+/* _documentation/subtitle-1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 97px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* placeholder */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=raccoon, FA Style=dualtone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 13.54%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 10.94%;
+top: 13.54%;
+bottom: 39.58%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 97px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* notification */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=bell, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 6.25%;
+bottom: 6.25%;
+
+background: #1E1E1E;
+
+
+/* FA Name=bell-plus, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 10.92%;
+top: 6.25%;
+bottom: 6.25%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 94px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 72px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* calendar */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=calendar-day, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 18px;
+height: 20.57px;
+left: calc(50% - 18px/2);
+top: calc(50% - 20.57px/2 + 0.29px);
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 72px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* best */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=trophy, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 21.76%;
+bottom: 33.32%;
+
+background: #F0AC2F;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 26.99%;
+right: 26.99%;
+top: 12.5%;
+bottom: 13.43%;
+
+background: #F0AC2F;
+
+
+/* Name */
+
+width: 34px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* clock */
+
+box-sizing: border-box;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=clock, FA Style=light */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 2px;
+gap: 10px;
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 31.25%;
+bottom: 31.25%;
+
+
+
+/* Vector */
+
+width: 20px;
+height: 20px;
+
+background: #1E1E1E;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 44px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icons-Action */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 32px;
+gap: 40px;
+
+position: absolute;
+width: 954px;
+height: 820px;
+left: 96px;
+top: 972px;
+
+/* figma_files_documentation/highlight-3 */
+background: #F5F5F5;
+border-radius: 20px;
+
+
+/* _Section-header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 12px;
+
+width: 890px;
+height: 66px;
+
+/* figma_files_documentation/primary-1 */
+border-bottom: 4px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* L-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 225px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 45px;
+height: 45px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+display: none;
+width: 141px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 179px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 32px;
+height: 32px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sub-header */
+
+width: 179px;
+height: 48px;
+
+/* _documentation/subtitle-1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* left */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=angle-left, FA Syle=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 25%;
+bottom: 29.16%;
+
+background: #1E1E1E;
+
+
+/* FA Name=angle-left, FA Syle=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 36.58%;
+top: 27.08%;
+bottom: 27.08%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 32px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 184px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* dropdown */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 184px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=angle-down, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 29.16%;
+top: 37.5%;
+bottom: 37.5%;
+
+background: #1E1E1E;
+
+
+/* FA Name=angle-down, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 27.08%;
+right: 27.08%;
+top: 37.5%;
+bottom: 36.58%;
+
+background: #1E1E1E;
+
+
+/* FA Name=angle-up, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 29.16%;
+top: 37.5%;
+bottom: 37.5%;
+
+background: #1E1E1E;
+
+
+/* FA Name=angle-up, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 27.08%;
+right: 27.08%;
+top: 37.5%;
+bottom: 36.58%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 78px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* right */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=angle-right, FA Syle=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 25%;
+bottom: 29.16%;
+
+background: #1E1E1E;
+
+
+/* FA Name=angle-right, FA Syle=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 36.58%;
+top: 27.08%;
+bottom: 27.08%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 41px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* expand all */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=triple-chevrons-dow, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 11.43px;
+height: 20px;
+left: calc(50% - 11.43px/2 + 0.21px);
+top: calc(50% - 20px/2);
+
+background: #000000;
+
+
+/* FA Name=triple-chevrons-up, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 11.43px;
+height: 20px;
+left: calc(50% - 11.43px/2 + 0.21px);
+top: calc(50% - 20px/2 - 0px);
+
+background: #000000;
+
+
+/* Name */
+
+width: 82px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 177px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* split-button-dropdown */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=circle-chevron-down, FA Style=duotone
+
+<p>Split button icon</p>
+*/
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.2%;
+right: 29.16%;
+top: 40.89%;
+bottom: 34.37%;
+
+background: #1E1E1E;
+
+
+/* FA Name=circle chevron up, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.2%;
+right: 29.16%;
+top: 34.37%;
+bottom: 40.89%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 177px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* maximize */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=arrow-up-right-and-arrow-down-left-from-center, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1E1E1E;
+
+
+/* FA Name=arrow-up-right-and-arrow-down-left-from-center, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.51%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 68px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* minimize */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=arrow-down-left-and-arrow-up-right-to-center, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.51%;
+bottom: 12.49%;
+
+background: #1E1E1E;
+
+
+/* FA Name=arrow-down-left-and-arrow-up-right-to-center, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 63px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* ellipsis */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=circle-ellipsis-vertical, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #000000;
+
+
+/* Name */
+
+width: 58px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+
+
+/* kebab */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=ellipsis, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 41.67%;
+bottom: 44.44%;
+
+background: #1E1E1E;
+
+
+/* FA Name=ellipsis-vertical, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 43.75%;
+right: 43.75%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 44px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 0;
+
+
+/* search */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=magnifying-glass, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 54px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+flex-grow: 0;
+
+
+/* add */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=plus, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 28px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+flex-grow: 0;
+
+
+/* Delete */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+isolation: isolate;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=trash-can, FA Style=light */
+
+position: absolute;
+left: 31.25%;
+right: 31.25%;
+top: 31.25%;
+bottom: 31.25%;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 14.58%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #000000;
+
+
+/* Name */
+
+width: 50px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 184px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 13;
+flex-grow: 0;
+
+
+/* edit */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 184px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=pen-to-square, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+
+
+/* FA Name=pen-to-square, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+
+
+/* FA Name=pen, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #000000;
+
+
+/* FA Name=pen, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #000000;
+
+
+/* Name */
+
+width: 30px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 14;
+flex-grow: 0;
+
+
+/* close */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=xmark, FA Syle=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 43px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 15;
+flex-grow: 0;
+
+
+/* Refresh */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=arrows-rotate, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 20px;
+height: 18.67px;
+left: calc(50% - 20px/2);
+top: calc(50% - 18.67px/2 + 0.33px);
+
+background: #000000;
+
+
+/* Name */
+
+width: 60px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 16;
+flex-grow: 0;
+
+
+/* undo */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=rotate-left, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+
+
+/* Name */
+
+width: 38px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 17;
+flex-grow: 0;
+
+
+/* save */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=floppy-disk, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 35px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 77px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 18;
+flex-grow: 0;
+
+
+/* download */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=downlaod, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 65.62%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 23.96%;
+right: 23.95%;
+top: 8.33%;
+bottom: 23.96%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 77px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 19;
+flex-grow: 0;
+
+
+/* upload */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=cloud-arrow-up, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 36.45%;
+right: 36.46%;
+top: 39.59%;
+bottom: 29.17%;
+
+background: #1E1E1E;
+
+
+/* FA Name=cloud-arrow-up, FA Style=solid */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 54px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 20;
+flex-grow: 0;
+
+
+/* file export */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=file-export, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 20px;
+height: 18px;
+left: calc(50% - 20px/2 - 0px);
+top: calc(50% - 18px/2);
+
+background: #1E1E1E;
+
+
+/* FA Name=file-export, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 20px;
+height: 18px;
+left: calc(50% - 20px/2 + 0px);
+top: calc(50% - 18px/2);
+
+background: #000000;
+
+
+/* Name */
+
+width: 84px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 21;
+flex-grow: 0;
+
+
+/* external link */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=arrow-up-right-from-square, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.35%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 104px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 94px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 22;
+flex-grow: 0;
+
+
+/* arrow right */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=arrow-right, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 6.26%;
+top: 12.51%;
+bottom: 12.51%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 94px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 23;
+flex-grow: 0;
+
+
+/* send */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=paper-plane-top, FA Style=solid */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 13.54%;
+bottom: 12.5%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 36px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 76px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 24;
+flex-grow: 0;
+
+
+/* save */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=clipboard, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 16.5px;
+height: 22px;
+left: calc(50% - 16.5px/2 + 0.25px);
+top: calc(50% - 22px/2);
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 76px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 25;
+flex-grow: 0;
+
+
+/* thumbs */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=thumbs up, FA Style=light
+
+<p>Split button icon</p>
+*/
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 22px;
+height: 19.25px;
+left: calc(50% - 22px/2);
+top: calc(50% - 19.25px/2 - 0.37px);
+
+background: #1E1E1E;
+
+
+/* FA Name=thumbs down, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 22px;
+height: 19.25px;
+left: calc(50% - 22px/2);
+top: calc(50% - 19.25px/2 - 0.37px);
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 58px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 26;
+flex-grow: 0;
+
+
+/* Eye */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=eye, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.34%;
+right: 8.32%;
+top: 17.19%;
+bottom: 17.19%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 36.11%;
+right: 36.11%;
+top: 35.94%;
+bottom: 35.94%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 25px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 91px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 27;
+flex-grow: 0;
+
+
+/* microphone */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=microphone, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.92%;
+right: 22.92%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 91px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 28;
+flex-grow: 0;
+
+
+/* volume */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=volume, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 56px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 144px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 29;
+flex-grow: 0;
+
+
+/* sort */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 144px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=sort, FA Style=solid */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 16.67%;
+bottom: 13.35%;
+
+background: #1E1E1E;
+
+
+/* FA Name=sort-up, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 54.17%;
+bottom: 12.5%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 16.67%;
+bottom: 54.17%;
+
+background: #1E1E1E;
+
+
+/* FA Name=sort-down, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 16.67%;
+bottom: 54.17%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 54.17%;
+bottom: 12.5%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 36px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 30;
+flex-grow: 0;
+
+
+/* copy */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=filter-list, FA Style=duotone
+
+<p>default display</p>
+*/
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 34.38%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 60.42%;
+right: 8.33%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #1E1E1E;
+
+
+/* FA Name=filter-list, FA Style=solid
+
+<p>active display</p>
+*/
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.34%;
+right: 8.33%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 76px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 31;
+flex-grow: 0;
+
+
+/* copy */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=copy, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 33.33%;
+top: 29.17%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 12.5%;
+top: 8.33%;
+bottom: 29.17%;
+
+background: #1E1E1E;
+
+
+/* FA Name=copy, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 19.25px;
+height: 22px;
+left: calc(50% - 19.25px/2 - 0.38px);
+top: calc(50% - 22px/2);
+
+background: #000000;
+
+
+/* Name */
+
+width: 37px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icons-Product-Specific */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 32px;
+gap: 40px;
+
+position: absolute;
+width: 952px;
+height: 286px;
+left: 98px;
+top: 2432px;
+
+/* figma_files_documentation/highlight-3 */
+background: #F5F5F5;
+border-radius: 20px;
+
+
+/* _Section-header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 12px;
+
+width: 890px;
+height: 66px;
+
+/* figma_files_documentation/primary-1 */
+border-bottom: 4px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* L-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 225px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 45px;
+height: 45px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+display: none;
+width: 141px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 321px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 32px;
+height: 32px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sub-header */
+
+width: 321px;
+height: 48px;
+
+/* _documentation/subtitle-1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Copilot */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Bespoke icon name=Copilot */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Large */
+
+position: absolute;
+left: 5%;
+right: 25%;
+top: 21.25%;
+bottom: 8.75%;
+
+background: #755AFC;
+
+
+/* Medium */
+
+position: absolute;
+left: 60%;
+right: 5%;
+top: 8.75%;
+bottom: 56.25%;
+
+background: #755AFC;
+
+
+/* Small */
+
+position: absolute;
+left: 60%;
+right: 22.5%;
+top: 73.75%;
+bottom: 8.75%;
+
+background: #755AFC;
+
+
+/* Bespoke icon name=Copilot Outline */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 10.42%;
+bottom: 5.21%;
+
+background: #000000;
+
+
+/* Name */
+
+width: 57px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 138px;
+height: 114.5px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Accessories Panel Mobile */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+width: 64px;
+height: 62.5px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=sliders, FA Style=regular */
+
+width: 24px;
+height: 22.5px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.89%;
+bottom: 7.78%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 138px;
+height: 36px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-align: center;
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 138px;
+height: 116px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Accessories Panel Expand */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=sidebar-flip, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 13.54%;
+bottom: 13.54%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 138px;
+height: 36px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-align: center;
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icons-Navigation */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 32px;
+gap: 40px;
+
+position: absolute;
+width: 954px;
+height: 406px;
+left: 96px;
+top: 518px;
+
+/* figma_files_documentation/highlight-3 */
+background: #F5F5F5;
+border-radius: 20px;
+
+
+/* _Section-header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 12px;
+
+width: 890px;
+height: 66px;
+
+/* figma_files_documentation/primary-1 */
+border-bottom: 4px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* L-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 225px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 45px;
+height: 45px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+display: none;
+width: 141px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 240px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 32px;
+height: 32px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sub-header */
+
+width: 240px;
+height: 48px;
+
+/* _documentation/subtitle-1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 116px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* publish-pricing */
+
+box-sizing: border-box;
+
+width: 93px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=money-check-dollar-pen, FA Syle=duotone, State=Default */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 20px;
+top: 20px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 16.67%;
+top: 25%;
+bottom: 25%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 8.35%;
+top: 45.83%;
+bottom: 16.68%;
+
+background: #1E1E1E;
+
+
+/* FA Name=money-check-dollar-pen, FA Syle=Default, State=Active */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 49px;
+top: 20px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 16.67%;
+top: 25%;
+bottom: 25%;
+
+background: #0D41E1;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 8.35%;
+top: 45.83%;
+bottom: 16.68%;
+
+background: #0D41E1;
+
+
+/* Publish Pricing */
+
+width: 116px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* menu */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=bars, FA Syle=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 14.88%;
+
+background: #1E1E1E;
+
+
+/* menu */
+
+width: 40px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 131px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* switch-ui-version */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+width: 98px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=shuffle, FA Syle=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1E1E1E;
+
+
+/* FA Name=shuffle, FA Syle=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 20px;
+left: calc(50% - 20px/2);
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1E1E1E;
+
+
+/* Switch UI Version */
+
+width: 131px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 91px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* lock-desk */
+
+box-sizing: border-box;
+
+width: 91px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=inbox-in, FA Style=duotone, State=Default */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 20px;
+top: 20px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 60.42%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.15%;
+top: 8.33%;
+bottom: 39.59%;
+
+background: #1E1E1E;
+
+
+/* FA Name=inbox-in, FA Style=duotone, State=Active */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 47px;
+top: 20px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 60.42%;
+bottom: 8.33%;
+
+background: #0D41E1;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.15%;
+top: 8.33%;
+bottom: 39.59%;
+
+background: #0D41E1;
+
+
+/* Lock Desk */
+
+width: 73px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 99px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* loan-pipeline */
+
+box-sizing: border-box;
+
+width: 91px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=table-list, FA Style=duotone, State=Default */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 20px;
+top: 20px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 23.96%;
+bottom: 23.96%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 13.54%;
+bottom: 13.54%;
+
+background: #1E1E1E;
+
+
+/* FA Name=table-list, FA Style=duotone, State=Active */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 47px;
+top: 20px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 23.96%;
+bottom: 23.96%;
+
+background: #0D41E1;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 13.54%;
+bottom: 13.54%;
+
+background: #0D41E1;
+
+
+/* Loan Pipeline */
+
+width: 99px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px 8px;
+gap: 16px;
+
+width: 132px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* loan-scenarios */
+
+box-sizing: border-box;
+
+width: 91px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=magnifying-glass-chart, FA Style=duotone, State=Default */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 20px;
+top: 20px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 23.96%;
+top: 8.33%;
+bottom: 23.96%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 25.26%;
+right: 8.34%;
+top: 23.96%;
+bottom: 8.32%;
+
+background: #1E1E1E;
+
+
+/* FA Name=magnifying-glass-chart, FA Style=duotone, State=Active */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 47px;
+top: 20px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 23.96%;
+top: 8.33%;
+bottom: 23.96%;
+
+background: #0D41E1;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 25.26%;
+right: 8.34%;
+top: 23.96%;
+bottom: 8.32%;
+
+background: #0D41E1;
+
+
+/* Loan Scenarios */
+
+width: 116px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 66px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* settings */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=gear, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 4.17%;
+bottom: 6.78%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 66px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* home */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=house-chimney-blank, FA Style=light */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.51%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 40px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 107px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+
+
+/* forward-back */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Variant=Back, FA Name=circle-arrow-left, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 26.55%;
+right: 26.56%;
+top: 27.86%;
+bottom: 27.88%;
+
+background: #1E1E1E;
+
+
+/* Variant=Forward, FA Name=circle-arrow-right, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 26.56%;
+right: 26.55%;
+top: 27.88%;
+bottom: 27.86%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 107px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 0;
+
+
+/* History */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=timeline-arrow, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 18.75%;
+bottom: 18.74%;
+
+background: #000000;
+
+
+/* Name */
+
+width: 58px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icons-Status */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+padding: 32px;
+gap: 40px;
+
+position: absolute;
+width: 954px;
+height: 544px;
+left: 96px;
+top: 1840px;
+
+/* figma_files_documentation/highlight-3 */
+background: #F5F5F5;
+border-radius: 20px;
+
+
+/* _Section-header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 12px;
+
+width: 890px;
+height: 66px;
+
+/* figma_files_documentation/primary-1 */
+border-bottom: 4px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* L-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 225px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 45px;
+height: 45px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+display: none;
+width: 141px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 179px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 32px;
+height: 32px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sub-header */
+
+width: 179px;
+height: 48px;
+
+/* _documentation/subtitle-1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* info */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=circle-info, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #0D41E1;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 39.58%;
+right: 39.58%;
+top: 29.17%;
+bottom: 29.17%;
+
+background: #0D41E1;
+
+
+/* Name */
+
+width: 32px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* success */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=circle-check, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #6FCF97;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 30.48%;
+right: 30.46%;
+top: 35.67%;
+bottom: 35.67%;
+
+background: #6FCF97;
+
+
+/* Name */
+
+width: 62px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* alert */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=circle-exclamation, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #F0AC2F;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 44.79%;
+right: 44.79%;
+top: 29.17%;
+bottom: 29.17%;
+
+background: #F0AC2F;
+
+
+/* Name */
+
+width: 42px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* fail */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=octagon-xmark, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.35%;
+right: 8.32%;
+top: 8.35%;
+bottom: 8.32%;
+
+background: #C34638;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 35.69%;
+right: 35.69%;
+top: 35.67%;
+bottom: 35.7%;
+
+background: #C34638;
+
+
+/* Name */
+
+width: 28px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 86px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* processing */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=hourglass-end, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 23.3%;
+right: 23.26%;
+top: 18.75%;
+bottom: 18.75%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 17.96%;
+right: 17.94%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 86px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* loading */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=spinner-third, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 13.83%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #0D41E1;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 44.79%;
+right: 8.33%;
+top: 8.33%;
+bottom: 26.57%;
+
+background: #0D41E1;
+
+
+/* Name */
+
+width: 59px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 144px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* circle */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 144px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=ban, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #1E1E1E;
+
+
+/* FA Name=circle, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #000000;
+
+
+/* FA Name=circle-half, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #000000;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 50%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #000000;
+
+
+/* Name */
+
+width: 47px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+
+/* Trend */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Trend=Up */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 6px 0px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 15.01px;
+height: 9px;
+
+background: #22854B;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Trend=Down */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 6px 0px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 15.01px;
+height: 9px;
+
+background: #BC4234;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 45px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 184px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 9;
+flex-grow: 0;
+
+
+/* File */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 184px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Variant=neutral, FA Name=file, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #595959;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 55.21%;
+right: 18.75%;
+top: 8.33%;
+bottom: 65.62%;
+
+background: #595959;
+
+
+/* Variant=upload, FA Name=file-arrow-up, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #0D41E1;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 34.39%;
+right: 18.75%;
+top: 8.33%;
+bottom: 23.96%;
+
+background: #0D41E1;
+
+
+/* Variant=success, FA Name=file-check, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 8.33%;
+bottom: 8.33%;
+
+background: #6FCF97;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 30.5%;
+right: 18.75%;
+top: 8.33%;
+bottom: 23.95%;
+
+background: #6FCF97;
+
+
+/* Variant=error, FA Name=file-circle-exclamation, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 36.11%;
+top: 12.96%;
+bottom: 12.97%;
+
+background: #C34638;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 40.74%;
+right: 8.33%;
+top: 12.96%;
+bottom: 12.97%;
+
+background: #C34638;
+
+
+/* Name */
+
+width: 28px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 104px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 10;
+flex-grow: 0;
+
+
+/* message */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 104px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Variant=Neutral, FA Name=message-lines, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.34%;
+
+background: #0D41E1;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.17%;
+top: 31.77%;
+bottom: 44.79%;
+
+background: #0D41E1;
+
+
+/* Variant=Important, FA Name=message-exclamation, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.34%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 44.79%;
+right: 44.79%;
+top: 21.35%;
+bottom: 36.98%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 64px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 76px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 11;
+flex-grow: 0;
+
+
+/* wifi-alert */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=wifi-exclamation, FA Style=duotone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.34%;
+top: 21.47%;
+bottom: 41.66%;
+
+background: #1E1E1E;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 41.67%;
+right: 41.67%;
+top: 20.83%;
+bottom: 20.83%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 76px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 12;
+flex-grow: 0;
+
+
+/* check */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=check, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.32%;
+right: 8.34%;
+top: 20.83%;
+bottom: 21.13%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 46px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 13;
+flex-grow: 0;
+
+
+/* dash */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 64px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* FA Name=minus, FA Style=regular */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 45.31%;
+bottom: 45.07%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 37px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 224px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 14;
+flex-grow: 0;
+
+
+/* Lock */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px;
+gap: 16px;
+
+width: 224px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Variant=default, FA Name=lock, FA Style=solid */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 20.83%;
+right: 20.83%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #1E1E1E;
+
+
+/* Variant=unavailable, FA Name=solid-lock-circle-xmark, FA Style=solid */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #1E1E1E;
+
+
+/* Variant=requested, FA Name=solid-lock-circle-question, FA Style=solid */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #1E1E1E;
+
+
+/* Variant=approved, FA Name=solid-lock-circle-check, FA Style=solid */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #1E1E1E;
+
+
+/* Variant=denied, FA Name=solid-lock-circle-xmark, FA Style=solid */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 16.67%;
+
+background: #1E1E1E;
+
+
+/* Name */
+
+width: 35px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;

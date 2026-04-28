@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist/types",
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@cySupport/*": ["./cypress/support/*"]
+    },
+    "types": [ "jest", "@testing-library/jest-dom"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": ["node_modules", "dist", "public", "cypress/**/*", "**/*.test.*", "**/*.spec.*"]
+}

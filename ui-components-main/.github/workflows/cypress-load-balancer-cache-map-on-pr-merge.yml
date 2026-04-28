@@ -1,0 +1,67 @@
+name: (cypress-load-balancer) | Cache load balancing map on base branch
+on:
+  pull_request:
+    types:
+      - closed
+
+env:
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  node-version: '24'
+
+jobs:
+  cache:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node-version }}
+
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
+
+      - run: bun install --frozen-lockfile
+
+      - run: cd ./packages/ui-components
+
+      - name: Download load-balancing map from HEAD branch using "cross-workflow" tooling
+        id: download-load-balancing-map-head-branch
+        uses: dawidd6/action-download-artifact@v8
+        with:
+          workflow: test.yml
+          # Optional, will get head commit SHA
+          pr: ${{ github.event.pull_request.number }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          name: cypress-load-balancer-map
+          path: ./packages/ui-components/.cypress_load_balancer
+
+      # Even if this is not found, it is ok, because when we run the test workflow,
+      # The head branch load balancing will originally use the base branch's load balancing map
+      # Before merging its individual results and then saving it.
+      # So as long as the HEAD branch is restored, it will be saved as the new BASE branch map,
+      # Even if merging does not occur in this workflow! This is what you want to happen.
+      - name: Download load-balancing map from BASE branch using "cross-workflow" tooling
+        id: download-load-balancing-map-base-branch
+        uses: dawidd6/action-download-artifact@v8
+        with:
+          workflow: test.yml
+          branch: ${{ github.base_ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          name: cypress-load-balancer-map
+          path: ./packages/ui-components/.cypress_load_balancer/temp
+
+      - name: Merge files
+        run: npx cypress-load-balancer merge -G ".cypress_load_balancer/temp/**/spec-map*.json"
+        working-directory: ./packages/ui-components
+
+      - name: Save merged load-balancing map
+        uses: actions/cache/save@v4
+        with:
+          path: ./packages/ui-components/.cypress_load_balancer/spec-map.json
+          key: cypress-load-balancer-map-${{ github.base_ref }}-${{ github.run_id }}-${{ github.run_attempt }}

@@ -1,0 +1,4437 @@
+/* Logos */
+
+position: relative;
+width: 1488px;
+height: 1343px;
+
+/* figma_files_documentation/white */
+background: #FFFFFF;
+border-radius: 32px;
+
+
+/* _Section-header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px 0px 8px;
+gap: 12px;
+
+position: absolute;
+width: 1296px;
+height: 66px;
+left: 96px;
+top: 96px;
+
+/* figma_files_documentation/primary-1 */
+border-bottom: 4px solid #000000;
+
+
+/* L-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+margin: 0 auto;
+width: 141px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 45px;
+height: 45px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+width: 141px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+margin: 0 auto;
+width: 162px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 32px;
+height: 32px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sub-header */
+
+display: none;
+width: 162px;
+height: 48px;
+
+/* _documentation/subtitle-1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Section */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px 48px;
+gap: 24px;
+
+position: absolute;
+width: 1296px;
+height: 706px;
+left: 96px;
+top: 541px;
+
+/* figma_files_documentation/highlight-3 */
+background: #F5F5F5;
+border-radius: 20px;
+
+
+/* _Section-header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 12px;
+
+width: 1200px;
+height: 66px;
+
+/* figma_files_documentation/primary-1 */
+border-bottom: 4px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* L-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 225px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 45px;
+height: 45px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+display: none;
+width: 141px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 161px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 32px;
+height: 32px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sub-header */
+
+width: 161px;
+height: 48px;
+
+/* _documentation/subtitle-1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+gap: 40px;
+
+width: 1200px;
+height: 219px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 76px;
+height: 115px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon-76x76 */
+
+width: 76px;
+height: 76px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* App Icon Grid */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 76px;
+height: 76px;
+left: calc(50% - 76px/2);
+top: calc(50% - 76px/2);
+
+opacity: 0.5;
+border: 1px solid #FF3B30;
+border-radius: 37px;
+
+
+/* Guideline */
+
+position: absolute;
+width: 76px;
+height: 0px;
+left: 0px;
+top: 38px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 76px;
+height: 0px;
+left: 0px;
+top: 38px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 76px;
+height: 0px;
+left: 0px;
+top: 38px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 76px;
+left: 38px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline - Center */
+
+position: absolute;
+width: 0px;
+height: 76px;
+left: 38px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 76px;
+left: 38px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 76px;
+height: 76px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 76px;
+height: 76px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 30.26%;
+right: 30.26%;
+top: 30.26%;
+bottom: 30.26%;
+
+border: 1px solid #007AFF;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 29px;
+height: 29px;
+left: 24px;
+top: 24px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 18px;
+top: 18px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 66px;
+height: 66px;
+left: 5px;
+top: 5px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Polly-logo */
+
+position: absolute;
+width: 53px;
+height: 42px;
+left: calc(50% - 53px/2 + 0.5px);
+top: calc(50% - 42px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.23%;
+top: 12.53%;
+bottom: 17.5%;
+
+background: #1E1E1E;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Name & Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+width: 44px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 12px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 44px;
+height: 13px;
+
+font-family: 'SF Mono';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 130%;
+/* identical to box height, or 13px */
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 120px;
+height: 159px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon-120x120 */
+
+width: 120px;
+height: 120px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* App Icon Grid */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 120px;
+height: 120px;
+left: calc(50% - 120px/2);
+top: calc(50% - 120px/2);
+
+opacity: 0.5;
+border: 1px solid #FF3B30;
+border-radius: 37px;
+
+
+/* Guideline */
+
+position: absolute;
+width: 120px;
+height: 0px;
+left: 0px;
+top: 61px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 120px;
+height: 0px;
+left: 0px;
+top: 61px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 120px;
+height: 0px;
+left: 0px;
+top: 61px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 120px;
+left: 61px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline - Center */
+
+position: absolute;
+width: 0px;
+height: 120px;
+left: 61px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 120px;
+left: 61px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 120px;
+height: 120px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 120px;
+height: 120px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 18.33%;
+right: 19.17%;
+top: 18.33%;
+bottom: 19.17%;
+
+border: 1px solid #007AFF;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 38px;
+top: 38px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 63px;
+height: 63px;
+left: 29px;
+top: 29px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 104px;
+height: 104px;
+left: 8px;
+top: 8px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Polly-logo */
+
+position: absolute;
+width: 85px;
+height: 66px;
+left: calc(50% - 85px/2 - 1.5px);
+top: calc(50% - 66px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.23%;
+top: 12.53%;
+bottom: 17.5%;
+
+background: #1E1E1E;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Name & Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+width: 56px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 12px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 56px;
+height: 13px;
+
+font-family: 'SF Mono';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 130%;
+/* identical to box height, or 13px */
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 152px;
+height: 191px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Icon-152x152 */
+
+width: 152px;
+height: 152px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* App Icon Grid */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 152px;
+height: 152px;
+left: calc(50% - 152px/2);
+top: calc(50% - 152px/2);
+
+opacity: 0.5;
+border: 1px solid #FF3B30;
+border-radius: 37px;
+
+
+/* Guideline */
+
+position: absolute;
+width: 152px;
+height: 0px;
+left: 0px;
+top: 76px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 152px;
+height: 0px;
+left: 0px;
+top: 76px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 152px;
+height: 0px;
+left: 0px;
+top: 76px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 152px;
+left: 76px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline - Center */
+
+position: absolute;
+width: 0px;
+height: 152px;
+left: 76px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 152px;
+left: 76px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 152px;
+height: 152px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 152px;
+height: 152px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 9.8%;
+right: 10.46%;
+top: 9.8%;
+bottom: 10.46%;
+
+border: 1px solid #007AFF;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 49px;
+top: 49px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 81px;
+height: 81px;
+left: 36px;
+top: 36px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 132px;
+height: 132px;
+left: 10px;
+top: 10px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Polly-logo */
+
+position: absolute;
+width: 112px;
+height: 87px;
+left: calc(50% - 112px/2 - 2px);
+top: calc(50% - 87px/2 + 3.5px);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.23%;
+top: 12.53%;
+bottom: 17.5%;
+
+background: #1E1E1E;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Name & Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+width: 56px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 12px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 56px;
+height: 13px;
+
+font-family: 'SF Mono';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 130%;
+/* identical to box height, or 13px */
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 167px;
+height: 206px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Icon-167x167 */
+
+width: 167px;
+height: 167px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* App Icon Grid */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 167px;
+height: 167px;
+left: 0px;
+top: 0px;
+
+opacity: 0.5;
+border: 1px solid #FF3B30;
+border-radius: 37px;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 0px;
+left: 0px;
+top: 114.5px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 0px;
+left: 0px;
+top: 83.5px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 0px;
+left: 0px;
+top: 52.5px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 167px;
+left: 114.5px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline - Center */
+
+position: absolute;
+width: 0px;
+height: 167px;
+left: 83.5px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 167px;
+left: 52.5px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 167px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 167px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 6.59%;
+right: 6.59%;
+top: 6.59%;
+bottom: 6.59%;
+
+border: 1px solid #007AFF;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 52.5px;
+top: 52.5px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 88px;
+height: 88px;
+left: 39.5px;
+top: 39.5px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 145px;
+height: 145px;
+left: 11px;
+top: 11px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Polly-logo */
+
+position: absolute;
+width: 121px;
+height: 94px;
+left: calc(50% - 121px/2 - 1px);
+top: calc(50% - 94px/2 + 0.5px);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.23%;
+top: 12.53%;
+bottom: 17.5%;
+
+background: #1E1E1E;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Name & Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+width: 56px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 12px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 56px;
+height: 13px;
+
+font-family: 'SF Mono';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 130%;
+/* identical to box height, or 13px */
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 180px;
+height: 219px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Icon-180x180 */
+
+width: 180px;
+height: 180px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* App Icon Grid */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 167px;
+height: 167px;
+left: 0px;
+top: 0px;
+
+opacity: 0.5;
+border: 1px solid #FF3B30;
+border-radius: 37px;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 0px;
+left: 0px;
+top: 114.5px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 0px;
+left: 0px;
+top: 83.5px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 0px;
+left: 0px;
+top: 52.5px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 167px;
+left: 114.5px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline - Center */
+
+position: absolute;
+width: 0px;
+height: 167px;
+left: 83.5px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 167px;
+left: 52.5px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 167px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 167px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 6.59%;
+right: 6.59%;
+top: 6.59%;
+bottom: 6.59%;
+
+border: 1px solid #007AFF;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 52.5px;
+top: 52.5px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 88px;
+height: 88px;
+left: 39.5px;
+top: 39.5px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 145px;
+height: 145px;
+left: 11px;
+top: 11px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Polly-logo */
+
+position: absolute;
+width: 121px;
+height: 94px;
+left: calc(50% - 121px/2 - 1.5px);
+top: calc(50% - 94px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.23%;
+top: 12.53%;
+bottom: 17.5%;
+
+background: #1E1E1E;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Name & Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+width: 56px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 12px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 56px;
+height: 13px;
+
+font-family: 'SF Mono';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 130%;
+/* identical to box height, or 13px */
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* _Section-header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 12px;
+
+width: 1200px;
+height: 66px;
+
+/* figma_files_documentation/primary-1 */
+border-bottom: 4px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* L-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 225px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 45px;
+height: 45px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+display: none;
+width: 141px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 155px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 32px;
+height: 32px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sub-header */
+
+width: 155px;
+height: 48px;
+
+/* _documentation/subtitle-1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+gap: 40px;
+
+width: 1200px;
+height: 219px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 76px;
+height: 115px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon-76x76 */
+
+width: 76px;
+height: 76px;
+
+background: #1E1E1E;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* App Icon Grid */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 76px;
+height: 76px;
+left: calc(50% - 76px/2);
+top: calc(50% - 76px/2);
+
+opacity: 0.5;
+border: 1px solid #FF3B30;
+border-radius: 37px;
+
+
+/* Guideline */
+
+position: absolute;
+width: 76px;
+height: 0px;
+left: 0px;
+top: 38px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 76px;
+height: 0px;
+left: 0px;
+top: 38px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 76px;
+height: 0px;
+left: 0px;
+top: 38px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 76px;
+left: 38px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline - Center */
+
+position: absolute;
+width: 0px;
+height: 76px;
+left: 38px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 76px;
+left: 38px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 76px;
+height: 76px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 76px;
+height: 76px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 30.26%;
+right: 30.26%;
+top: 30.26%;
+bottom: 30.26%;
+
+border: 1px solid #007AFF;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 29px;
+height: 29px;
+left: 24px;
+top: 24px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 40px;
+height: 40px;
+left: 18px;
+top: 18px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 66px;
+height: 66px;
+left: 5px;
+top: 5px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Polly-logo */
+
+position: absolute;
+width: 53px;
+height: 42px;
+left: calc(50% - 53px/2 + 0.5px);
+top: calc(50% - 42px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.23%;
+top: 12.53%;
+bottom: 17.5%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Name & Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+width: 44px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 12px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 44px;
+height: 13px;
+
+font-family: 'SF Mono';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 130%;
+/* identical to box height, or 13px */
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 120px;
+height: 159px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Icon-120x120 */
+
+width: 120px;
+height: 120px;
+
+background: #1E1E1E;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* App Icon Grid */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 120px;
+height: 120px;
+left: calc(50% - 120px/2);
+top: calc(50% - 120px/2);
+
+opacity: 0.5;
+border: 1px solid #FF3B30;
+border-radius: 37px;
+
+
+/* Guideline */
+
+position: absolute;
+width: 120px;
+height: 0px;
+left: 0px;
+top: 61px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 120px;
+height: 0px;
+left: 0px;
+top: 61px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 120px;
+height: 0px;
+left: 0px;
+top: 61px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 120px;
+left: 61px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline - Center */
+
+position: absolute;
+width: 0px;
+height: 120px;
+left: 61px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 120px;
+left: 61px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 120px;
+height: 120px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 120px;
+height: 120px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 18.33%;
+right: 19.17%;
+top: 18.33%;
+bottom: 19.17%;
+
+border: 1px solid #007AFF;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 38px;
+top: 38px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 63px;
+height: 63px;
+left: 29px;
+top: 29px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 104px;
+height: 104px;
+left: 8px;
+top: 8px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Polly-logo */
+
+position: absolute;
+width: 85px;
+height: 66px;
+left: calc(50% - 85px/2 - 1.5px);
+top: calc(50% - 66px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.23%;
+top: 12.53%;
+bottom: 17.5%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Name & Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+width: 56px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 12px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 56px;
+height: 13px;
+
+font-family: 'SF Mono';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 130%;
+/* identical to box height, or 13px */
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 152px;
+height: 191px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Icon-152x152 */
+
+width: 152px;
+height: 152px;
+
+background: #1E1E1E;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* App Icon Grid */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 152px;
+height: 152px;
+left: calc(50% - 152px/2);
+top: calc(50% - 152px/2);
+
+opacity: 0.5;
+border: 1px solid #FF3B30;
+border-radius: 37px;
+
+
+/* Guideline */
+
+position: absolute;
+width: 152px;
+height: 0px;
+left: 0px;
+top: 76px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 152px;
+height: 0px;
+left: 0px;
+top: 76px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 152px;
+height: 0px;
+left: 0px;
+top: 76px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 152px;
+left: 76px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline - Center */
+
+position: absolute;
+width: 0px;
+height: 152px;
+left: 76px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 152px;
+left: 76px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 152px;
+height: 152px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 152px;
+height: 152px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 9.8%;
+right: 10.46%;
+top: 9.8%;
+bottom: 10.46%;
+
+border: 1px solid #007AFF;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 49px;
+top: 49px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 81px;
+height: 81px;
+left: 36px;
+top: 36px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 132px;
+height: 132px;
+left: 10px;
+top: 10px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Polly-logo */
+
+position: absolute;
+width: 112px;
+height: 87px;
+left: calc(50% - 112px/2 - 2px);
+top: calc(50% - 87px/2 + 3.5px);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.23%;
+top: 12.53%;
+bottom: 17.5%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Name & Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+width: 56px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 12px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 56px;
+height: 13px;
+
+font-family: 'SF Mono';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 130%;
+/* identical to box height, or 13px */
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 167px;
+height: 206px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Icon-167x167 */
+
+width: 167px;
+height: 167px;
+
+background: #1E1E1E;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* App Icon Grid */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 167px;
+height: 167px;
+left: 0px;
+top: 0px;
+
+opacity: 0.5;
+border: 1px solid #FF3B30;
+border-radius: 37px;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 0px;
+left: 0px;
+top: 114.5px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 0px;
+left: 0px;
+top: 83.5px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 0px;
+left: 0px;
+top: 52.5px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 167px;
+left: 114.5px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline - Center */
+
+position: absolute;
+width: 0px;
+height: 167px;
+left: 83.5px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 167px;
+left: 52.5px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 167px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 167px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 6.59%;
+right: 6.59%;
+top: 6.59%;
+bottom: 6.59%;
+
+border: 1px solid #007AFF;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 52.5px;
+top: 52.5px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 88px;
+height: 88px;
+left: 39.5px;
+top: 39.5px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 145px;
+height: 145px;
+left: 11px;
+top: 11px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Polly-logo */
+
+position: absolute;
+width: 121px;
+height: 94px;
+left: calc(50% - 121px/2 - 1px);
+top: calc(50% - 94px/2 + 0.5px);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.23%;
+top: 12.53%;
+bottom: 17.5%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Name & Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+width: 56px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 12px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 56px;
+height: 13px;
+
+font-family: 'SF Mono';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 130%;
+/* identical to box height, or 13px */
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 180px;
+height: 219px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Icon-180x180 */
+
+width: 180px;
+height: 180px;
+
+background: #1E1E1E;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* App Icon Grid */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 167px;
+height: 167px;
+left: 0px;
+top: 0px;
+
+opacity: 0.5;
+border: 1px solid #FF3B30;
+border-radius: 37px;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 0px;
+left: 0px;
+top: 114.5px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 0px;
+left: 0px;
+top: 83.5px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 0px;
+left: 0px;
+top: 52.5px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 167px;
+left: 114.5px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline - Center */
+
+position: absolute;
+width: 0px;
+height: 167px;
+left: 83.5px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 0px;
+height: 167px;
+left: 52.5px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 167px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Guideline */
+
+position: absolute;
+width: 167px;
+height: 167px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #007AFF;
+
+
+/* Rectangle */
+
+position: absolute;
+left: 6.59%;
+right: 6.59%;
+top: 6.59%;
+bottom: 6.59%;
+
+border: 1px solid #007AFF;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 62px;
+height: 62px;
+left: 52.5px;
+top: 52.5px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 88px;
+height: 88px;
+left: 39.5px;
+top: 39.5px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Ellipse */
+
+position: absolute;
+width: 145px;
+height: 145px;
+left: 11px;
+top: 11px;
+
+border: 1px solid #007AFF;
+border-radius: 37px;
+
+
+/* Polly-logo */
+
+position: absolute;
+width: 121px;
+height: 94px;
+left: calc(50% - 121px/2 - 1.5px);
+top: calc(50% - 94px/2);
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.23%;
+top: 12.53%;
+bottom: 17.5%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Name & Description */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+width: 56px;
+height: 31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 12px;
+height: 18px;
+
+/* _documentation/caption */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+text-transform: uppercase;
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Name */
+
+width: 56px;
+height: 13px;
+
+font-family: 'SF Mono';
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 130%;
+/* identical to box height, or 13px */
+
+/* figma_files_documentation/primary-2 */
+color: #3D3D3D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 24px;
+gap: 24px;
+
+position: absolute;
+width: 400px;
+height: 259px;
+left: 96px;
+top: 202px;
+
+/* figma_files_documentation/highlight-3 */
+background: #F5F5F5;
+border-radius: 20px;
+
+
+/* _Section-header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 12px;
+
+width: 352px;
+height: 56px;
+
+/* figma_files_documentation/primary-1 */
+border-bottom: 4px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* L-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 45px;
+height: 45px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* component symbol */
+
+width: 45px;
+height: 45px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+display: none;
+width: 141px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 149px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 32px;
+height: 32px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sub-header */
+
+width: 149px;
+height: 48px;
+
+/* _documentation/subtitle-1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 32px;
+gap: 10px;
+
+width: 352px;
+height: 147px;
+
+/* figma_files_documentation/secondary */
+background: #959595;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Polly-logo */
+
+box-sizing: border-box;
+
+width: 207px;
+height: 99px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Variant=Polly, Theme=Dark */
+
+position: absolute;
+left: 9.66%;
+right: 43.96%;
+top: 20.2%;
+bottom: 55.56%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 1.14%;
+right: 85.81%;
+top: 15.94%;
+bottom: 20.45%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 17.77%;
+right: 67.5%;
+top: 14.56%;
+bottom: 18.91%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.57%;
+right: 50.72%;
+top: 15.94%;
+bottom: 20.45%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.41%;
+right: 33.93%;
+top: 15.94%;
+bottom: 20.45%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 69.08%;
+right: 14.87%;
+top: 15.94%;
+bottom: 20.45%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 81.44%;
+right: 0.59%;
+top: 4.55%;
+bottom: 4.55%;
+
+background: #01FFF0;
+
+
+/* Variant=Polly, Theme=Light */
+
+position: absolute;
+left: 10.14%;
+right: 43.48%;
+top: 55.56%;
+bottom: 20.2%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 1.14%;
+right: 85.81%;
+top: 15.94%;
+bottom: 20.45%;
+
+background: #333333;
+
+
+/* Vector */
+
+position: absolute;
+left: 17.77%;
+right: 67.5%;
+top: 14.56%;
+bottom: 18.91%;
+
+background: #333333;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.57%;
+right: 50.72%;
+top: 15.94%;
+bottom: 20.45%;
+
+background: #333333;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.41%;
+right: 33.93%;
+top: 15.94%;
+bottom: 20.45%;
+
+background: #333333;
+
+
+/* Vector */
+
+position: absolute;
+left: 69.08%;
+right: 14.87%;
+top: 15.94%;
+bottom: 20.45%;
+
+background: #333333;
+
+
+/* Vector */
+
+position: absolute;
+left: 81.44%;
+right: 0.59%;
+top: 4.55%;
+bottom: 4.55%;
+
+background: #01FFF0;
+
+
+/* Variant=P, Theme=Dark */
+
+position: absolute;
+left: 72.95%;
+right: 12.18%;
+top: 20.2%;
+bottom: 55.56%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.23%;
+top: 12.53%;
+bottom: 17.5%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Variant=P, Theme=Light */
+
+position: absolute;
+left: 73.43%;
+right: 11.7%;
+top: 55.56%;
+bottom: 20.2%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.23%;
+top: 12.53%;
+bottom: 17.5%;
+
+background: #333333;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.5%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 24px;
+gap: 24px;
+
+position: absolute;
+width: 400px;
+height: 259px;
+left: 544px;
+top: 202px;
+
+/* figma_files_documentation/highlight-3 */
+background: #F5F5F5;
+border-radius: 20px;
+
+
+/* _Section-header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 12px;
+
+width: 352px;
+height: 56px;
+
+/* figma_files_documentation/primary-1 */
+border-bottom: 4px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* L-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 45px;
+height: 45px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* component symbol */
+
+width: 45px;
+height: 45px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+display: none;
+width: 141px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 192px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 32px;
+height: 32px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sub-header */
+
+width: 192px;
+height: 48px;
+
+/* _documentation/subtitle-1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 10px;
+
+width: 271px;
+height: 147px;
+
+/* figma_files_documentation/secondary */
+background: #959595;
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Product-logo */
+
+box-sizing: border-box;
+
+width: 207px;
+height: 85px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Product=Pricing Engine, Style=Bold */
+
+position: absolute;
+width: 13.77px;
+height: 16px;
+left: 20px;
+top: 49px;
+
+
+
+/* Vector */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 57.79%;
+top: 8.04%;
+bottom: 47.69%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.26%;
+right: 0.87%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Product=Exchange, Style=Bold */
+
+position: absolute;
+width: 13.77px;
+height: 16px;
+left: 49px;
+top: 49px;
+
+
+
+/* Vector */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 57.79%;
+top: 8.04%;
+bottom: 47.69%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.26%;
+right: 0.87%;
+top: 0%;
+bottom: 0%;
+
+background: #FFD601;
+
+
+/* Product=Analytics, Style=Bold */
+
+position: absolute;
+width: 13.77px;
+height: 16px;
+left: 79px;
+top: 49px;
+
+
+
+/* Vector */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 57.79%;
+top: 8.04%;
+bottom: 47.69%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.26%;
+right: 0.87%;
+top: 0%;
+bottom: 0%;
+
+background: #FF54D9;
+
+
+/* Product=Hedge, Style=Bold */
+
+position: absolute;
+width: 13.77px;
+height: 16px;
+left: 108px;
+top: 49px;
+
+
+
+/* Vector */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 57.79%;
+top: 8.04%;
+bottom: 47.69%;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.26%;
+right: 0.87%;
+top: 0%;
+bottom: 0%;
+
+background: #A089FD;
+
+
+/* Product=Analytics, Style=Original */
+
+position: absolute;
+width: 13.32px;
+height: 16.27px;
+left: 78.64px;
+top: 20px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 7.88%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FF54D9;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.63%;
+top: 8.04%;
+bottom: 47.69%;
+
+background: #FFFFFF;
+
+
+/* Product=Hedge, Style=Original */
+
+position: absolute;
+width: 13.32px;
+height: 16.27px;
+left: 107.96px;
+top: 20px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 7.88%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #A089FD;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.63%;
+top: 8.04%;
+bottom: 47.69%;
+
+background: #FFFFFF;
+
+
+/* Product=Exchange, Style=Original */
+
+position: absolute;
+width: 13.32px;
+height: 16.27px;
+left: 49.32px;
+top: 20px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 7.88%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFD601;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.63%;
+top: 8.04%;
+bottom: 47.69%;
+
+background: #FFFFFF;
+
+
+/* Product=Pricing Engine, Style=Original */
+
+position: absolute;
+width: 13.32px;
+height: 16.27px;
+left: 20px;
+top: 20px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 7.88%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #01FFF0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 55.63%;
+top: 8.04%;
+bottom: 47.69%;
+
+background: #FFFFFF;
+
+
+/* Display */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 24px;
+gap: 24px;
+
+position: absolute;
+width: 400px;
+height: 259px;
+left: 992px;
+top: 202px;
+
+/* figma_files_documentation/highlight-3 */
+background: #F5F5F5;
+border-radius: 20px;
+
+
+/* _Section-header */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px 0px 8px;
+gap: 12px;
+
+width: 352px;
+height: 56px;
+
+/* figma_files_documentation/primary-1 */
+border-bottom: 4px solid #000000;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* L-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 45px;
+height: 45px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* component symbol */
+
+width: 45px;
+height: 45px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Header */
+
+display: none;
+width: 141px;
+height: 58px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.4px;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* R-aligned */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 210px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* component symbol */
+
+display: none;
+width: 32px;
+height: 32px;
+
+background: #9747FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Sub-header */
+
+width: 210px;
+height: 48px;
+
+/* _documentation/subtitle-1 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: right;
+
+/* figma_files_documentation/primary-1 */
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* rule-tool-logo */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 20px;
+gap: 20px;
+
+width: 223.5px;
+height: 64px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Variant=Desktop */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 139.5px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* TRT 1 */
+
+width: 139.5px;
+height: 24px;
+
+background: url(TRT.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Variant=Mobile */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Untitled design 2 */
+
+width: 24px;
+height: 24px;
+
+background: url(Untitled design.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;

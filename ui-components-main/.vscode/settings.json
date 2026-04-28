@@ -1,0 +1,36 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.validate": ["javascript", "vue", "typescript"],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "axios",
+    "composables",
+    "dataviz",
+    "fontawesome",
+    "fortawesome",
+    "picklist",
+    "pollyex",
+    "popovertarget",
+    "shiki",
+    "tabset",
+    "tailwindcss",
+    "unregisters",
+    "Vali",
+    "valibot",
+    "xxxs"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      // SPA redirect for GitHub Pages
+      // Detects the base path (e.g., /main/ or /pr-123/) and redirects to the SPA
+      (function() {
+        var path = window.location.pathname;
+        var search = window.location.search;
+        var hash = window.location.hash;
+
+        // Match /main/ or /pr-{number}/ patterns
+        var match = path.match(/^\/(main|pr-\d+)(\/.*)?$/);
+
+        if (match) {
+          var basePath = '/' + match[1] + '/';
+          var routePath = match[2] || '/';
+
+          // If we're already at the base path, the SPA doesn't exist - fall back to /main/
+          if (path === basePath || path === '/' + match[1]) {
+            if (match[1] !== 'main') {
+              window.location.replace('/main/');
+              return;
+            }
+            // Already at /main/ and still getting 404 - just show error
+            document.body.innerHTML = '<p>Page not found</p>';
+            return;
+          }
+
+          // Store the full path for the SPA to pick up
+          sessionStorage.setItem('spa-redirect', path + search + hash);
+
+          // Redirect to the SPA's index
+          window.location.replace(basePath);
+        } else {
+          // Unknown path, redirect to main
+          sessionStorage.setItem('spa-redirect', path + search + hash);
+          window.location.replace('/main/');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
+

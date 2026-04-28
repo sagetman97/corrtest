@@ -1,0 +1,33 @@
+name: Cleanup PR Preview
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  cleanup-preview:
+    name: Remove PR Preview from GitHub Pages
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      DEMO_PATH: pr-${{ github.event.pull_request.number }}
+    steps:
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Remove preview folder
+        run: |
+          if [ -d "${{ env.DEMO_PATH }}" ]; then
+            rm -rf ${{ env.DEMO_PATH }}
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Remove preview for PR #${{ github.event.pull_request.number }}"
+            git push
+          else
+            echo "Preview folder ${{ env.DEMO_PATH }} does not exist, skipping cleanup"
+          fi
+

@@ -1,0 +1,11 @@
+import { Toaster, toast } from 'sonner';
+
+export function PToastHost() {
+  return <Toaster position="top-right" richColors />;
+}
+
+export const PToast = {
+  success: (message: string) => toast.success(message),
+  error: (message: string) => toast.error(message),
+  info: (message: string) => toast(message),
+};

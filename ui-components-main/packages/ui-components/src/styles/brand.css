@@ -1,0 +1,184 @@
+[data-theme='default'],
+[data-theme='dark'] {
+  --colors-text-icon-dark: var(--colors-neutral-darkest);
+  --colors-text-icon-dark-unavailable: var(--colors-status-unavailable-dark);
+  --colors-text-icon-medium: var(--colors-neutral-darker);
+  --colors-text-icon-placeholder: var(--colors-neutral-darker);
+  --colors-text-icon-primary: var(--colors-primary-darkest);
+  --colors-text-icon-primary-unavailable: var(--colors-status-unavailable-primary);
+  --colors-text-icon-primary-medium: var(--colors-primary-darker);
+  --colors-text-icon-light: var(--colors-neutral-white);
+  --colors-text-icon-light-unavailable: var(--colors-grey-200);
+  --colors-text-icon-link: var(--colors-accent-mid);
+  --colors-text-icon-accent-dark: var(--colors-accent-darker);
+  --colors-text-icon-accent: var(--colors-accent-mid);
+  --colors-text-icon-accent-medium: var(--colors-accent-light);
+  --colors-text-icon-accent-unavailable: var(--colors-status-unavailable-accent);
+  --colors-text-icon-copilot-dark: var(--colors-AI-darker);
+  --colors-text-icon-copilot: var(--colors-AI-mid);
+  --colors-text-icon-copilot-unavailable: var(--colors-status-unavailable-AI);
+  --colors-text-icon-status-success-AA: var(--colors-status-success-darkest);
+  --colors-text-icon-status-success-decorative: var(--colors-status-success-mid);
+  --colors-text-icon-status-warning-AA: var(--colors-status-warning-darkest);
+  --colors-text-icon-status-warning-decorative: var(--colors-status-warning-mid);
+  --colors-text-icon-status-error-AA: var(--colors-status-error-darkest);
+  --colors-text-icon-status-error-decorative: var(--colors-status-error-dark);
+  --colors-text-icon-status-error-unavailable: var(--colors-status-unavailable-error);
+  --colors-text-icon-status-info-AA: var(--colors-info-darker);
+  --colors-text-icon-status-info-decorative: var(--colors-info-mid);
+  --colors-text-icon-status-mandatory-star: var(--colors-bespoke-mandatory);
+  --colors-text-icon-graphics-trend-up: var(--colors-graphics-positive);
+  --colors-text-icon-graphics-trend-down: var(--colors-graphics-negative);
+
+  --colors-border-common-default: var(--colors-neutral-lighter);
+  --colors-border-common-active: var(--colors-neutral-light);
+  --colors-border-common-active-dark: var(--colors-neutral-darker);
+  --colors-border-common-dark: var(--colors-neutral-darkest);
+  --colors-border-common-primary: var(--colors-primary-darkest);
+  --colors-border-common-accent: var(--colors-accent-mid);
+  --colors-border-common-accent-dark: var(--colors-accent-dark);
+  --colors-border-common-accent-darker: var(--colors-accent-darker);
+  --colors-border-common-accent-light: var(--colors-accent-light);
+  --colors-border-common-accent-decorative: var(--colors-accent-lightest);
+  --colors-border-common-copilot-dark: var(--colors-AI-dark);
+  --colors-border-common-copilot: var(--colors-AI-mid);
+
+  --colors-border-status-success-dark: var(--colors-status-success-darker);
+  --colors-border-status-warning-dark: var(--colors-status-warning-darker);
+  --colors-border-status-error-dark: var(--colors-status-error-darker);
+  --colors-border-status-info-dark: var(--colors-info-darker);
+  --colors-border-status-success-light: var(--colors-status-success-lighter);
+  --colors-border-status-warning-light: var(--colors-status-warning-lighter);
+  --colors-border-status-error-light: var(--colors-status-error-lighter);
+  --colors-border-status-info-light: var(--colors-info-lighter);
+
+  --colors-border-uncommon-notification: var(--colors-bespoke-notification-dark);
+  --colors-border-uncommon-new: var(--colors-bespoke-new-dark);
+  --colors-border-uncommon-sticky-note-corner: var(--colors-bespoke-sticky-note-dark);
+  --colors-border-uncommon-nav-pricing-engine: var(--colors-brand-teal);
+  --colors-border-uncommon-nav-exchange: var(--colors-brand-exchange);
+  --colors-border-uncommon-nav-hedge: var(--colors-brand-hedge);
+  --colors-border-uncommon-nav-analytics: var(--colors-brand-analytics);
+
+  --colors-border-p-grid-cell-gap: var(--colors-neutral-light);
+  --colors-border-p-grid-border: var(--colors-neutral-light);
+  --colors-border-box-shadow: rgba(0, 0, 0, 0.1);
+
+  --colors-background-common-white: var(--colors-neutral-white);
+  --colors-background-common-default-grey: var(--colors-neutral-lighter);
+  --colors-background-common-default-grey-light: var(--colors-neutral-lightest);
+  --colors-background-common-ultra-light-neutral: var(--colors-neutral-ultra-light);
+  --colors-background-common-default-grey-unavailable: var(--colors-status-unavailable-light);
+  --colors-background-common-primary: var(--colors-primary-darkest);
+  --colors-background-common-primary-medium: var(--colors-primary-darker);
+  --colors-background-common-primary-unavailable: var(--colors-primary-mid);
+  --colors-background-common-dark: var(--colors-neutral-darker);
+  --colors-background-common-dark-unavailable: var(--colors-neutral-mid);
+  --colors-background-common-light-unavailable: var(--colors-primary-light);
+  --colors-background-common-accent-dark: var(--colors-accent-dark);
+  --colors-background-common-accent: var(--colors-accent-mid);
+  --colors-background-common-accent-light: var(--colors-neutral-accent-light);
+  --colors-background-common-accent-lighter: var(--colors-neutral-accent-lighter);
+  --colors-background-common-accent-unavailable: var(--colors-status-unavailable-accent);
+  --colors-background-common-highlight: var(--colors-accent-lightest);
+  --colors-background-common-highlight-light: var(--colors-accent-lightest);
+
+  --colors-background-status-info-light: var(--colors-info-lightest);
+  --colors-background-status-success-light: var(--colors-status-success-lightest);
+  --colors-background-status-warning-light: var(--colors-status-warning-lightest);
+  --colors-background-status-error-light: var(--colors-status-error-lightest);
+
+  --colors-background-p-banner-default: var(--colors-blue-25);
+  --colors-background-p-banner-active: var(--colors-blue-100);
+
+  --colors-background-p-table-header: var(--colors-neutral-white);
+  --colors-background-p-table-body-default: var(--colors-neutral-accent-lightest);
+  --colors-background-p-table-body-default-white: var(--colors-neutral-white);
+  --colors-background-p-table-body-hover: var(--colors-neutral-accent-lighter);
+  --colors-background-p-table-body-active: var(--colors-neutral-accent-light);
+
+  --colors-background-p-accordion-accent-header-default: var(--colors-neutral-accent-lighter);
+  --colors-background-p-accordion-accent-header-active: var(--colors-accent-lightest);
+  --colors-background-p-accordion-accent-body: var(--colors-neutral-accent-lighter);
+  --colors-background-p-accordion-warning-header-default: var(--colors-status-warning-lightest);
+  --colors-background-p-accordion-warning-body: var(--colors-status-warning-lightest);
+  --colors-background-p-accordion-warning-header-active: var(--colors-status-warning-lighter);
+
+  --colors-background-button-primary-default: var(--colors-primary-darkest);
+  --colors-background-button-primary-active: var(--colors-primary-darker);
+  --colors-background-button-primary-unavailable: var(--colors-status-unavailable-primary);
+
+  --colors-background-button-accent-default: var(--colors-accent-mid);
+  --colors-background-button-accent-active: var(--colors-accent-darker);
+  --colors-background-button-accent-unavailable: var(--colors-status-unavailable-accent);
+
+  --colors-background-button-secondary-default: var(--colors-neutral-white);
+  --colors-background-button-secondary-focus: var(--colors-neutral-white);
+  --colors-background-button-secondary-active: var(--colors-neutral-white);
+  --colors-background-button-secondary-unavailable: var(--colors-status-unavailable-light);
+
+  --colors-background-button-text-default: var(--colors-neutral-white-transparent);
+  --colors-background-button-text-focus: var(--colors-neutral-white);
+  --colors-background-button-text-hover: var(--colors-neutral-ultra-light);
+  --colors-background-button-text-active: var(--colors-neutral-lightest);
+  --colors-background-button-text-unavailable: var(--colors-neutral-white-transparent);
+
+  --colors-background-button-simple-default: var(--colors-neutral-white);
+  --colors-background-button-simple-focus: var(--colors-neutral-white);
+  --colors-background-button-simple-active: var(--colors-neutral-ultra-light);
+  --colors-background-button-simple-unavailable: var(--colors-neutral-ultra-light);
+
+  --colors-background-button-error-default: var(--colors-status-error-dark);
+  --colors-background-button-error-active: var(--colors-status-error-darker);
+  --colors-background-button-error-unavailable: var(--colors-status-unavailable-error);
+
+  --colors-background-button-copilot-default: var(--colors-AI-mid);
+  --colors-background-button-copilot-active: var(--colors-AI-dark);
+  --colors-background-button-copilot-darker: var(--colors-AI-darker);
+  --colors-background-button-copilot-unavailable: var(--colors-status-unavailable-AI);
+
+  --colors-background-button-copilot-light-default: var(--colors-AI-lighter);
+  --colors-background-button-copilot-light-active: var(--colors-AI-lightish);
+  --colors-background-button-copilot-light-action: var(--colors-AI-lighter);
+  --colors-background-button-copilot-light-unavailable: var(--colors-status-unavailable-AI-light);
+
+  --colors-background-uncommon-notification: var(--colors-bespoke-notification-light);
+  --colors-background-uncommon-copilot: var(--colors-AI-mid);
+  --colors-background-uncommon-copilot-light: var(--colors-AI-ultralight);
+  --colors-background-uncommon-copilot-lightest: var(--colors-AI-ultralight);
+  --colors-background-uncommon-new: var(--colors-bespoke-new-light);
+  --colors-background-uncommon-online: var(--colors-bespoke-online);
+  --colors-background-uncommon-online-unavailable: var(--colors-bespoke-online-light);
+  --colors-background-uncommon-online-dark: var(--colors-bespoke-online-dark);
+  --colors-background-uncommon-sticky-note: var(--colors-bespoke-sticky-note-light);
+  --colors-background-uncommon-sticky-note-corner: var(--colors-bespoke-sticky-note-mid);
+
+  --colors-background-uncommon-product-pricing-engine: var(--colors-brand-teal-grey-fill);
+  --colors-background-uncommon-product-exchange: var(--colors-brand-yellow-grey-fill);
+  --colors-background-uncommon-product-analytics: var(--colors-brand-pink-grey-fill);
+
+  --colors-background-uncommon-nav-nav: var(--colors-nav-mid);
+  --colors-background-uncommon-nav-section-default: var(--colors-nav-mid);
+  --colors-background-uncommon-nav-section-active: var(--colors-nav-darkest);
+  --colors-background-uncommon-nav-subsection-default: var(--colors-nav-darkest);
+  --colors-background-uncommon-nav-subsection-active: var(--colors-nav-mid);
+
+  --colors-background-p-grid-header: var(--colors-neutral-white);
+  --colors-background-p-grid-body-default: var(--colors-neutral-white);
+  --colors-background-p-grid-hover: var(--colors-neutral-accent-light);
+  --colors-background-p-grid-hover-intersection: var(--colors-accent-lightest);
+  --colors-background-p-grid-selected: var(--colors-neutral-accent-lighter);
+  --colors-background-p-grid-grey-default: var(--colors-neutral-lighter);
+  --colors-background-p-grid-distinguished-default: var(--colors-neutral-lightest);
+  --colors-background-p-grid-net-default: var(--colors-neutral-lighter);
+  --colors-background-p-grid-net-intersection: var(--colors-neutral-light);
+  --colors-background-p-grid-column-row-selected: var(--colors-accent-mid);
+
+  --colors-brand-exchange: var(--colors-brand-yellow);
+  --colors-brand-pricing-engine: var(--colors-brand-teal);
+  --colors-brand-analytics-product: var(--colors-brand-analytics);
+  --colors-brand-hedge: var(--colors-brand-purple);
+
+  --colors-backdrop: #051a5a40;
+  --colors-backdrop-copilot: var(--colors-AI-mid);
+}

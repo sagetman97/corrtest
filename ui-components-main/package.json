@@ -1,0 +1,47 @@
+{
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "preview": "cd packages/ui-demo && bun run preview",
+    "build": "bun run build:components && bun run build:demo",
+    "build:components": "cd packages/ui-components && bun run build",
+    "build:demo": "cd packages/ui-demo && bun run build && bun run copy:index",
+    "build:components:watch": "cd packages/ui-components && bun run build:watch",
+    "coverage:standardize-nyc-out-files": "cd packages/ui-components && bun run coverage:standardize-nyc-out-files",
+    "coverage:clean": "cd packages/ui-components && bun run coverage:clean",
+    "coverage:report": "cd packages/ui-components && bun run coverage:report",
+    "coverage:open-report": "cd packages/ui-components && bun run coverage:open-report",
+    "coverage:component:local": "cd packages/ui-components && bun run coverage:component:local",
+    "coverage:unit:local": "cd packages/ui-components && bun run coverage:unit:local",
+    "dev": "bun run dev:demo",
+    "dev:components": "cd packages/ui-components && bun run dev",
+    "dev:demo": "cd packages/ui-demo && bun run dev",
+    "test:unit": "cd packages/ui-components && bun run test:unit",
+    "test:unit:with-coverage": "cd packages/ui-components && bun run test:unit:with-coverage",
+    "test:cypress:open": "cd packages/ui-components && bun run test:cypress:open",
+    "test:cypress:run": "cd packages/ui-components && bun run test:cypress:run",
+    "lint": "bun run lint:components && bun run lint:demo",
+    "lint:components": "cd packages/ui-components && bun run lint",
+    "lint:demo": "cd packages/ui-demo && bun run lint",
+    "lint:fix": "bun run lint:fix:components && bun run lint:fix:demo",
+    "lint:fix:components": "cd packages/ui-components && bun run lint:fix",
+    "lint:fix:demo": "cd packages/ui-demo && bun run lint:fix",
+    "chromatic": "npx chromatic --project-token=$CHROMATIC_TOKEN",
+    "link": "cd packages/ui-components && bun link",
+    "publish-components": "bun publish/semver.ts",
+    "publish-components-beta": "bun publish/beta.ts",
+    "kill-cypress": "bun scripts/kill-cypress.ts"
+  },
+  "version": "0.0.2",
+  "devDependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0",
+    "@types/bun": "^1.1.6",
+    "shiki": "^4.0.2"
+  },
+  "dependencies": {
+    "baseline-browser-mapping": "^2.9.19",
+    "caniuse-lite": "^1.0.30001766"
+  }
+}

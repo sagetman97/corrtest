@@ -1,0 +1,83 @@
+{
+  "name": "@pollyex/ui-components",
+  "version": "1.3.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/types/src/main.d.ts",
+  "main": "./dist/ui-components.umd.cjs",
+  "module": "./dist/ui-components.js",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/types/src/main.d.ts",
+        "default": "./dist/ui-components.js"
+      },
+      "require": {
+        "types": "./dist/types/src/main.d.ts",
+        "default": "./dist/ui-components.umd.cjs"
+      }
+    },
+    "./style.css": "./dist/ui-components.css"
+  },
+  "scripts": {
+    "build": "vite build && vue-tsc &&  tsc-alias -p tsconfig.json",
+    "build:watch": "concurrently \"vite build --watch\" \"vue-tsc --watch\" \"tsc-alias --watch -p tsconfig.json\"",
+    "dev": "vite build -watch & vue-tsc -watch",
+    "coverage:standardize-nyc-out-files": "node standardize-nyc-out-files.cjs",
+    "coverage:clean": "rm -rf .nyc_output || true & rm -r coverage || true",
+    "coverage:report": " nyc report --nycrc-path=./.nycrc.config.mjs -r=html -r=json",
+    "coverage:open-report": "open coverage/index.html",
+    "coverage:component:local": "npx nyc report -r=text",
+    "coverage:unit:local": "npx nyc report --nycrc-path=./.nycrc.config.unit.mjs -r=text -t coverage",
+    "test:unit": "vitest",
+    "test:unit:with-coverage": "vitest --run --coverage.enabled",
+    "test:cypress:run": "cypress run --component",
+    "test:cypress:open": "nyc --silent cypress open --component",
+    "test:cypress:headed": "bun run test:cypress:run --headed",
+    "cy:install": "cypress install",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix --max-warnings 0"
+  },
+  "dependencies": {
+    "@date-fns/utc": "^1.2.0",
+    "vue": "3.5.27"
+  },
+  "peerDependencies": {
+    "valibot": "1.0.0-beta.3",
+    "vue-router": "^4.2.5 || ^5.0.0"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.14.6",
+    "@pollyex/eslint-config": "0.0.10",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/user-event": "^14.5.1",
+    "@testing-library/vue": "^7.0.0",
+    "@types/jest": "^29.5.11",
+    "@vitejs/plugin-vue": "^6.0.3",
+    "@vitest/coverage-istanbul": "4.0.18",
+    "@vue/test-utils": "^2.4.1",
+    "vite-plugin-istanbul": "^7.1.0",
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
+    "autoprefixer": "^10.4.16",
+    "concurrently": "^8.2.2",
+    "cypress": "^14.5.1",
+    "cypress-load-balancer": "^1.0.7",
+    "date-fns": "^3.6.0",
+    "eslint": "^8.51.0",
+    "happy-dom": "^12.9.1",
+    "postcss": "^8.4.31",
+    "prettier": "^3.5.3",
+    "string-ts": "^2.0.0",
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.8.2",
+    "vite": "^7.3.1",
+    "vitest": "4.0.18",
+    "vue-tsc": "3.2.4",
+    "vue-component-type-helpers": "^3.2.4"
+  },
+  "nyc": {
+    "extends": "./.nycrc.config.component.mjs"
+  }
+}

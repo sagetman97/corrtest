@@ -1,0 +1,9 @@
+:root {
+  --layout-below: -1;
+  --layout-above: 1;
+  --layout-navigation-bar: 15;
+  --layout-accessory-panel: 20;
+  --layout-modal: 30;
+  --layout-tooltip: 100;
+  --layout-max: 9999;
+}

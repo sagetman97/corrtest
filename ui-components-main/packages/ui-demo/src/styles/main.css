@@ -1,0 +1,28 @@
+:root,
+body {
+  font-family: "InterVariable", sans-serif;
+  font-feature-settings:
+    'liga' 1,
+    'calt' 1,
+    'ss02' 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#app {
+  scrollbar-gutter: stable;
+  margin: 0;
+}
+
+html[data-theme='default'] {
+  background-color: var(--colors-background-common-default-grey);
+}
+
+html[data-theme='dark'] {
+  background-color: var(--colors-background-common-primary-medium);
+}
+

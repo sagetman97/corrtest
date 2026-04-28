@@ -1,0 +1,19 @@
+:root {
+  --spacing-xxxs:       0.125rem;
+  --spacing-xxs:        0.250rem;
+  --spacing-xs:         0.500rem;
+  --spacing-sm:         0.750rem;
+  --spacing-base:       1.000rem;
+  --spacing-md:         var(--spacing-base);
+  --spacing-lg:         1.500rem;
+  --spacing-xl:         2.000rem;
+  --spacing-xxl:        2.500rem;
+  --spacing-xxxl:       3.000rem;
+
+  --p-grid-cell-padding-inline: var(--spacing-xs);
+  --p-grid-cell-padding-block-lg: var(--spacing-xs);
+  --p-grid-cell-padding-block: var(--spacing-xxs);
+  --p-grid-cell-gap: 1px;
+  --p-grid-cell-border-width: 1px;
+
+}

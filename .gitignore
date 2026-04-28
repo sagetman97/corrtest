@@ -12,6 +12,11 @@ venv/
 tmp/
 scratch/
 
+# JavaScript build/deps
+**/node_modules/
+**/dist/
+**/.vite/
+
 # Cursor MCP (if config is ever copied into this repo for debugging)
 .cursor/mcp.json
 **/mcp.local.json

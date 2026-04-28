@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "../../",
+    "paths": {
+      "@/*": ["../ui-components/src/*"]
+    }
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.d.ts",
+    "./src/**/*.tsx",
+    "./src/**/*.vue",
+    "./src/**/*.json",
+    "../ui-components/**/*.ts",
+    "../ui-components/**/*.d.ts",
+    "../ui-components/**/*.tsx",
+    "../ui-components/**/*.vue",
+    "../ui-components/**/*.json"
+  ],
+  "exclude": ["node_modules", "dist", "public", "../ui-components/cypress/**/*", "../ui-components/**/*.test.*", "../ui-components/**/*.spec.*"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

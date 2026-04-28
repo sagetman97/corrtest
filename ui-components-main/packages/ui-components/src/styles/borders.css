@@ -1,0 +1,20 @@
+:root {
+  --border-radius-xxs: 2px;
+  --border-radius-xs: 4px;
+  --border-radius-sm: 8px;
+  --border-radius-base: 16px;
+  --border-radius-md: 24px;
+  --border-radius-lg: 32px;
+  --border-radius-xl: 99px;
+  --border-radius-round: 100%;
+
+  --shadow-xs: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-sm: 0px 2px 6px 0px #0000004d;
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0px 2px 4px -2px rgba(0, 0, 0, 0.1), 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-tooltip: 0 0 6px -2px rgba(0, 0, 0, 0.25);
+  --shadow-up: 0px -4px 8px 0px rgba(30, 30, 30, 0.1);
+  --shadow-button: 0px 2px 6px 0px #0000004d;
+}
+

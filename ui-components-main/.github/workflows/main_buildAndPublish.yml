@@ -1,0 +1,117 @@
+name: Publish Library
+
+# Controls when the action will run. Triggers the workflow on push events but only for the prod branch
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - .github/**
+      - 'test/**'
+      - '**/*.cy.ts'
+      - '**/*.test.*'
+      - '**/*.spec.*'
+      - '**/.nycrc*'
+      - '**/standardize-nyc-out-files.cjs'
+      - '**/vitest.setup.ts'
+      - '**/.eslintrc.cjs'
+      - '**/.prettierrc'
+      - 'README.md'
+      - '.editorconfig'
+      - '.eslintignore'
+      - '.git-blame-ignore-revs'
+      - '.gitignore'
+
+env:
+  node-version: '24'
+
+permissions:
+  id-token: write
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  build-library:
+    name: Build and Publish Library
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.publish.outputs.version }}
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      node-version: '24'
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v1
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node-version }}
+      - run: npm install -g npm@latest
+      - run: bun install --frozen-lockfile
+      - run: bun run lint:components
+      - run: bun run test:unit
+      - run: bun run build:components
+      - name: Calculate Version and Create Tag
+        id: publish
+        run: bun publish-components
+      - name: Publish to NPM
+        run: cd packages/ui-components && npm publish --access=restricted
+      - name: Create Release
+        uses: comnoco/create-release-action@v2.0.5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{steps.publish.outputs.version}}
+          release_name: Release ${{ steps.publish.outputs.version }}
+          body: ${{steps.publish.outputs.message}}
+          draft: false
+          prerelease: false
+
+  deploy-demo:
+    name: Deploy demo library to GitHub Pages
+    runs-on: ubuntu-latest
+    needs: [build-library]
+    continue-on-error: true
+    permissions:
+      contents: write
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      DEMO_PATH: main
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
+
+      - run: bun install --frozen-lockfile
+
+      - run: bun run lint:demo
+
+      - name: Build demo
+        run: bun run build:demo
+        env:
+          VITE_VERSION: ${{ needs.build-library.outputs.version }}
+
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Deploy to GitHub Pages
+        run: |
+          rm -rf gh-pages/${{ env.DEMO_PATH }}
+          cp -r docs/${{ env.DEMO_PATH }} gh-pages/${{ env.DEMO_PATH }}
+          cp packages/ui-demo/public/spa-404.html gh-pages/404.html
+          cd gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Deploy main demo"
+          git push

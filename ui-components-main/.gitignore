@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+storybook-static
+
+# Editor directories and files
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore docs folder
+docs
+
+
+#cypress files and results
+packages/ui-components/cypress/screenshots
+packages/ui-components/cypress/videos
+packages/ui-components/cypress/results
+packages/ui-components/cypress/downloads
+packages/ui-components/cypress/coverage
+packages/ui-components/cypress/reports
+packages/ui-components/coverage
+packages/ui-components/out
+packages/ui-components/.cypress_load_balancer
+**/.nyc_output

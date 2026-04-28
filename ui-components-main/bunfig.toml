@@ -1,0 +1,8 @@
+[install.scopes]
+# registry with token
+"@pollyex" = { token = "$NPM_TOKEN" }
+"@fortawesome" = { url = "https://npm.fontawesome.com/", token = "$FONTAWESOME_TOKEN" }
+"@awesome.me" = { url = "https://npm.fontawesome.com/", token = "$FONTAWESOME_TOKEN"}
+
+[install]
+linker = "hoisted"

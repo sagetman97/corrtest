@@ -1,0 +1,401 @@
+name: Test
+
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      NODE_NO_WARNINGS:
+        options: [ '0', '1' ]
+        type: choice
+        default: '1'
+        description: '1 to disable node warnings, 0 to keep them in the stdout'
+  push:
+    branches:
+      - main
+
+env:
+  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+  node-version: '24'
+
+jobs:
+  unit-testing:
+    runs-on: codebuild-awsrunner-${{ github.run_id }}-${{ github.run_attempt }}
+    name: Vitest unit tests
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || '' }}
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node-version }}
+
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
+
+      - run: bun install --frozen-lockfile
+
+      - name: Run unit tests with code coverage
+        run: bun run test:unit:with-coverage
+
+      - name: Upload code coverage output file
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: out-json-Unit-${{ runner.name }}
+          path: ./packages/ui-components/.nyc_output/coverage-final.json
+          include-hidden-files: true
+
+  save-original-clb-map-for-all-attempts:
+    name: Cypress Load Balancer | Save the original map to cache to use on all future run attempts of this workflow
+    runs-on: codebuild-awsrunner-private-${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node-version }}
+
+      - name: Check if "ORIGINAL" map exists, and if not, restore cache of the map from previous workflow runs
+        id: check-if-original-map-exists
+        uses: actions/cache/restore@v4
+        with:
+          fail-on-cache-miss: false
+          path: ./packages/ui-components/.cypress_load_balancer/spec-map.json
+          key: cypress-load-balancer-map-${{ github.head_ref || github.ref_name }}-${{ github.run_id }}-ORIGINAL
+          # To ensure that all runners reuse the same test files in all new attempts,
+          # these restore keys will ensure that the same load balancing map
+          # is used on all new attempts of the same workflow run.
+          ## Static restore key:
+          ## - "ORIGINAL" key from first run attempt, which is used for all future run attempts
+          # Extra restore keys in order, if static is not hit:
+          ## - Key from this branch
+          ## - Key from default branch of "master" (GitHub Actions does not provide a way to get the default_branch name easily)
+          restore-keys: |
+            cypress-load-balancer-map-${{ github.head_ref || github.ref_name }}-
+            cypress-load-balancer-map-${{ github.base_ref }}-
+
+      - uses: oven-sh/setup-bun@v2
+        if: ${{ hashFiles('.cypress_load_balancer/**/spec-map.json') == '' }}
+
+      - name: Initialize map if not present
+        if: ${{ hashFiles('.cypress_load_balancer/**/spec-map.json') == '' }}
+        run: |
+          cd packages/ui-components
+          bun install --frozen-lockfile
+          npx cypress-load-balancer initialize
+
+      - name: Cache "ORIGINAL" map for all future run attempts on cache miss
+        if: ${{ steps.check-if-original-map-exists.outputs.cache-hit != 'true' }}
+        uses: actions/cache/save@v4
+        with:
+          key: cypress-load-balancer-map-${{ github.head_ref || github.ref_name }}-${{ github.run_id }}-ORIGINAL
+          path: ./packages/ui-components/.cypress_load_balancer/spec-map.json
+
+  cypress-testing:
+    name: Cypress Tests (${{ matrix.index }})
+    runs-on:
+      - codebuild-awsrunner-${{ github.run_id }}-${{ github.run_attempt }}
+    needs: save-original-clb-map-for-all-attempts
+    strategy:
+      # don't fail the entire matrix on failure
+      fail-fast: false
+      matrix:
+        index: [ 1,2,3,4 ]
+        total: [ 4 ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - uses: browser-actions/setup-chrome@v1
+
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node-version }}
+
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Cache Cypress binary
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/Cypress
+          key: cypress-${{ runner.os }}-cypress-${{ hashFiles('**/bun.lock') }}
+          restore-keys: |
+            cypress-${{ runner.os }}-cypress-${{ hashFiles('**/bun.lock') }}
+
+      - name: Install bun dependencies
+        shell: bash
+        env:
+          # make sure every Cypress install prints minimal information
+          CI: 1
+        run: |
+          bun install --frozen-lockfile
+          bun run cypress install
+
+      - name: (cypress-load-balancer) | Get cached load-balancing map
+        uses: actions/cache/restore@v4
+        with:
+          fail-on-cache-miss: true
+          path: ./packages/ui-components/.cypress_load_balancer/spec-map.json
+          key: cypress-load-balancer-map-${{ github.head_ref || github.ref_name }}-${{ github.run_id }}-ORIGINAL
+
+      - name: Cypress tests
+        working-directory: ./packages/ui-components
+        run: bun run test:cypress:headed
+        env:
+          CYPRESS_runner: '${{matrix.index}}/${{matrix.total}}'
+
+      - name: (cypress-load-balancer) | Upload temp load balancer map
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spec-map-${{ matrix.index }}
+          path: ./packages/ui-components/.cypress_load_balancer/spec-map-*.json
+          include-hidden-files: true
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mocha-results-${{ matrix.index }}
+          path: ./packages/ui-components/cypress/results
+
+      - name: Upload screenshots
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots-${{ matrix.index }}
+          path: ./packages/ui-components/cypress/screenshots
+
+      - name: Rename code coverage outfile to allow for parallelized artifacts
+        if: always()
+        run: mv ./packages/ui-components/.nyc_output/out.json ./packages/ui-components/.nyc_output/out-${{ matrix.index }}.json
+
+      - name: Upload code coverage output file
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: out-json-Component-${{ matrix.index }}
+          path: ./packages/ui-components/.nyc_output/out-*.json
+          include-hidden-files: true
+
+  merge-and-upload-load-balancer-map:
+    runs-on:
+      - codebuild-awsrunner-${{ github.run_id }}-${{ github.run_attempt }}
+    name: (cypress-load-balancer) | Merge and upload load balancer map
+    needs: cypress-testing
+    if: always()
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node-version }}
+
+      - uses: oven-sh/setup-bun@v2
+
+      - run: bun install --frozen-lockfile
+
+      - name: Restore "ORIGINAL" load-balancing map for this run attempt
+        uses: actions/cache/restore@v4
+        with:
+          fail-on-cache-miss: true
+          path: ./packages/ui-components/.cypress_load_balancer/spec-map.json
+          key: cypress-load-balancer-map-${{ github.head_ref || github.ref_name }}-${{ github.run_id }}-ORIGINAL
+
+      - name: Download temp maps from parallelized jobs
+        uses: actions/download-artifact@v4
+        with:
+          pattern: spec-map-*
+          path: ./packages/ui-components/.cypress_load_balancer/temp
+          merge-multiple: true
+
+      - name: Merge files
+        run: npx cypress-load-balancer merge -G ".cypress_load_balancer/temp/**/spec-map*.json"
+        working-directory: ./packages/ui-components
+
+      - name: Save overwritten cached load-balancing map to workflow
+        uses: actions/cache/save@v4
+        with:
+          # This saves to the workflow run.
+          # To save to the base branch during pull requests, this needs to be uploaded on merge using a separate action.
+          # See `./save-map-on-to-base-branch-on-pr-merge.yml`
+          key: cypress-load-balancer-map-${{ github.head_ref || github.ref_name }}-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ./packages/ui-components/.cypress_load_balancer/spec-map.json
+
+      # This is to get around the issue of not being able to access cache on the base_ref for a PR.
+      # We can use this to download it in another workflow run: https://github.com/dawidd6/action-download-artifact
+      # That way, we can merge the source (head) branch's load balancer map to the target (base) branch.
+      - name: Upload main load balancer map
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cypress-load-balancer-map
+          path: ./packages/ui-components/.cypress_load_balancer/spec-map.json
+          include-hidden-files: true
+
+      - name: Delete temp load balancer maps
+        uses: geekyeggo/delete-artifact@v5
+        with:
+          name: spec-map-*
+          failOnError: false
+
+  publish-test-results:
+    name: Publish test results
+    needs: cypress-testing
+    runs-on:
+      - codebuild-awsrunner-${{ github.run_id }}-${{ github.run_attempt }}
+    permissions:
+      checks: write
+      contents: read
+      issues: read
+    if: always()
+    continue-on-error: true
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: ./cypress/results
+          pattern: mocha-results-*
+          merge-multiple: true
+
+      - name: Merge screenshot artifacts
+        uses: actions/upload-artifact/merge@v4
+        if: failure()
+        continue-on-error: true
+        with:
+          name: screenshots
+          pattern: screenshots-*
+          delete-merged: true
+
+      - name: Publish test results
+        id: test-results
+        uses: EnricoMi/publish-unit-test-result-action@v2
+        with:
+          check_name: "Test Results (${{ github.event.workflow_run.event || github.event_name }})"
+          files: cypress/results/**/*.xml
+          comment_mode: off
+          compare_to_earlier_commit: false
+          report_suite_logs: any
+          json_file: "mocha-report.json"
+
+      - name: Upload All Test Results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: All Test Results
+          path: cypress/results/**/*.xml
+
+      - name: Delete result files
+        uses: geekyeggo/delete-artifact@v5
+        if: always()
+        with:
+          name: mocha-results-*
+          failOnError: false
+
+  create-code-coverage-report:
+    name: Create code coverage report
+    runs-on:
+      - codebuild-awsrunner-${{ github.run_id }}-${{ github.run_attempt }}
+    needs: [ unit-testing, cypress-testing ]
+    if: (!cancelled())
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.node-version }}
+
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+
+      - name: Download coverage outputs
+        uses: actions/download-artifact@v4
+        with:
+          pattern: out-json-*
+          path: ./packages/ui-components/out
+          merge-multiple: true
+
+      - name: Standardize code coverage output files
+        run: |
+          bun run coverage:standardize-nyc-out-files
+          bunx nyc merge ./packages/ui-components/out ./packages/ui-components/.nyc_output/out.json
+
+
+      # JSON file is backup; HTML is used for GH Pages; text file is used for PR comments
+      # Component: `.nycrc.config.component.mjs` is specific to Cypress configuration that checks `.vue` files and some `.ts` files that are declared within the config
+      # Unit: `.nycrc.config.unit.mjs` is specific to Vitest configuration as it checks only `.ts` files excluding those covered by Cypress
+      # Default: Used for reporting on the merged results in this job
+      - name: Create code coverage report (JSON, text, and HTML formats) (${{ matrix.test-type }})
+        run: |
+          cd packages/ui-components
+          bunx nyc report --nycrc-path=./.nycrc.config.mjs --check-coverage=false -r=json -r=html -r=text > ./report.txt
+          mv ./report.txt ./coverage/report.txt
+
+      - name: Upload code coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: code-coverage-report
+          path: packages/ui-components/coverage
+
+  add-coverage-comment-to-pr:
+    name: Add coverage report summary to pull request
+    runs-on:
+      - codebuild-awsrunner-${{ github.run_id }}-${{ github.run_attempt }}
+    if: ${{ github.event_name == 'pull_request' && !cancelled() }}
+    needs: [ create-code-coverage-report ]
+    permissions:
+      pull-requests: write
+      contents: read
+    steps:
+      - name: Download report
+        uses: actions/download-artifact@v4
+        with:
+          pattern: code-coverage-report
+          merge-multiple: true
+          path: coverage
+
+      - name: Prepare coverage report in markdown
+        uses: fingerprintjs/action-coverage-report-md@v2
+        id: coverage-md
+        with:
+          textReportPath: './coverage/report.txt'
+
+      - name: Add coverage report to the job summary
+        run: |
+          echo "# Merged Test Code Coverage" >> $GITHUB_STEP_SUMMARY
+          echo "_This includes both unit and component test coverage._" >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.coverage-md.outputs.markdownReport }}" >> $GITHUB_STEP_SUMMARY
+
+
+      - name: Find coverage report comment within the pull request
+        uses: peter-evans/find-comment@v3
+        if: ${{ github.event_name == 'pull_request' }}
+        id: find-comment
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: 'Merged Test Code Coverage'
+
+      - name: Add/replace coverage report comment within the pull request
+        uses: peter-evans/create-or-update-comment@v4
+        if: ${{ github.event_name == 'pull_request' }}
+        with:
+          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            # Merged Test Code Coverage
+            _This includes both unit and component test coverage._
+
+            [See here for more](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+
+            <details>
+            <summary>See here</summary>
+
+            ${{ steps.coverage-md.outputs.markdownReport }}
+            </details>
+          edit-mode: replace

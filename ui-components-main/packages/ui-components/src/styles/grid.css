@@ -1,0 +1,8 @@
+:root {
+  --grid-1-col: repeat(1, minmax(0,1fr));
+  --grid-2-col: repeat(2, minmax(0,1fr));
+  --grid-3-col: repeat(3, minmax(0,1fr));
+  --grid-4-col: repeat(4, minmax(0,1fr));
+  --grid-5-col: repeat(5, minmax(0,1fr));
+  --grid-6-col: repeat(6, minmax(0,1fr));
+}
