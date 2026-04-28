@@ -64,14 +64,21 @@ export function PDataTable<T>({
   return (
     <div className="overflow-hidden rounded-[16px] border border-border bg-card shadow-[var(--shadow-m)]">
       <div className="overflow-x-auto">
-        <table className={cn('w-full min-w-[640px]', variant === 'compact' ? 'text-xs' : '')}>
+        <table
+          className={cn(
+            'w-full',
+            variant === 'compact' ? 'table-fixed text-xs' : 'min-w-[640px]',
+          )}
+        >
           <thead className="bg-muted/40">
             <tr>
               {columns.map((column) => (
                 <th
                   key={String(column.key)}
                   className={cn(
-                    'px-3 py-2 text-left text-xs uppercase tracking-wide text-muted-foreground',
+                    variant === 'compact'
+                      ? 'px-2 py-1.5 text-left text-[11px] uppercase tracking-wide text-muted-foreground'
+                      : 'px-3 py-2 text-left text-xs uppercase tracking-wide text-muted-foreground',
                     column.sortable ? 'cursor-pointer hover:text-foreground' : '',
                     column.align === 'right' ? 'text-right' : '',
                     column.align === 'center' ? 'text-center' : '',
@@ -124,7 +131,9 @@ export function PDataTable<T>({
                       <td
                         key={String(column.key)}
                         className={cn(
-                          'px-3 py-2.5 text-sm',
+                          variant === 'compact'
+                            ? 'px-2 py-2 align-top text-xs leading-snug whitespace-normal break-words'
+                            : 'px-3 py-2.5 text-sm',
                           column.align === 'right' ? 'text-right' : '',
                           column.align === 'center' ? 'text-center' : '',
                           column.freeze ? 'sticky left-0 z-[1] bg-card' : '',
